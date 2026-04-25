@@ -1,0 +1,1922 @@
+[
+  {
+    "level": "beginner",
+    "difficulty": 1,
+    "title": "Hot Soup",
+    "sentence": "Lila blew on the soup because it was too hot.",
+    "targetText": "it",
+    "options": ["Lila", "the soup", "the spoon"],
+    "answer": "the soup",
+    "candidates": [
+      { "token": "soup", "weight": 0.78, "note": "Soup is the thing that can be hot." },
+      { "token": "Lila", "weight": 0.14, "note": "Lila is the actor doing the blowing." },
+      { "token": "blew", "weight": 0.08, "note": "Blowing is the action, not the referent." }
+    ],
+    "clue": "too hot",
+    "insight": "The thing that was too hot is the soup."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 1,
+    "title": "Lost Sock",
+    "sentence": "Ben looked under the bed for the sock but it was gone.",
+    "targetText": "it",
+    "options": ["Ben", "the sock", "the bed"],
+    "answer": "the sock",
+    "candidates": [
+      { "token": "sock", "weight": 0.78, "note": "The sock is what was missing." },
+      { "token": "bed", "weight": 0.13, "note": "The bed is where Ben looked." },
+      { "token": "Ben", "weight": 0.09, "note": "Ben is the searcher." }
+    ],
+    "clue": "was gone",
+    "insight": "The missing item is the sock."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 1,
+    "title": "Sweet Mango",
+    "sentence": "Asha ate the mango because it tasted very sweet.",
+    "targetText": "it",
+    "options": ["Asha", "the mango", "the kitchen"],
+    "answer": "the mango",
+    "candidates": [
+      { "token": "mango", "weight": 0.8, "note": "The mango is the food being tasted." },
+      { "token": "Asha", "weight": 0.12, "note": "Asha is the eater." },
+      { "token": "ate", "weight": 0.08, "note": "The eating action sets the clue." }
+    ],
+    "clue": "tasted very sweet",
+    "insight": "The sweet thing being eaten is the mango."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 1,
+    "title": "Rain Stops",
+    "sentence": "We waited under the tree until the rain stopped because it was heavy.",
+    "targetText": "it",
+    "options": ["the tree", "the rain", "the ground"],
+    "answer": "the rain",
+    "candidates": [
+      { "token": "rain", "weight": 0.78, "note": "Rain is what can be heavy and stop." },
+      { "token": "tree", "weight": 0.13, "note": "The tree is just the shelter." },
+      { "token": "waited", "weight": 0.09, "note": "Waiting is the action." }
+    ],
+    "clue": "was heavy",
+    "insight": "Heavy rain matches the clue and the action of waiting it out."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 1,
+    "title": "Tired Dog",
+    "sentence": "The dog napped on the rug because it was tired.",
+    "targetText": "it",
+    "options": ["the dog", "the rug", "the floor"],
+    "answer": "the dog",
+    "candidates": [
+      { "token": "dog", "weight": 0.79, "note": "The dog is the one that gets tired and naps." },
+      { "token": "rug", "weight": 0.13, "note": "The rug is just where the napping happens." },
+      { "token": "napped", "weight": 0.08, "note": "Napping is the action." }
+    ],
+    "clue": "was tired",
+    "insight": "The napper is the dog, so 'it' points to the dog."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 1,
+    "title": "Light Bulb",
+    "sentence": "Dad changed the bulb because it had burned out.",
+    "targetText": "it",
+    "options": ["Dad", "the bulb", "the lamp"],
+    "answer": "the bulb",
+    "candidates": [
+      { "token": "bulb", "weight": 0.8, "note": "The bulb is what burns out." },
+      { "token": "Dad", "weight": 0.12, "note": "Dad is the one doing the change." },
+      { "token": "changed", "weight": 0.08, "note": "The change is the action." }
+    ],
+    "clue": "burned out",
+    "insight": "Bulbs burn out, so 'it' points to the bulb."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 1,
+    "title": "Paper Plane",
+    "sentence": "Sam tossed the plane and it flew across the room.",
+    "targetText": "it",
+    "options": ["Sam", "the plane", "the room"],
+    "answer": "the plane",
+    "candidates": [
+      { "token": "plane", "weight": 0.79, "note": "The plane is what flew." },
+      { "token": "Sam", "weight": 0.13, "note": "Sam is the thrower." },
+      { "token": "tossed", "weight": 0.08, "note": "Tossing is the action." }
+    ],
+    "clue": "flew across the room",
+    "insight": "Planes fly, so 'it' refers to the plane."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 1,
+    "title": "Cold Milk",
+    "sentence": "Mia drank the milk because it was nice and cold.",
+    "targetText": "it",
+    "options": ["Mia", "the milk", "the glass"],
+    "answer": "the milk",
+    "candidates": [
+      { "token": "milk", "weight": 0.79, "note": "The milk is what was cold and got drunk." },
+      { "token": "Mia", "weight": 0.13, "note": "Mia is the drinker." },
+      { "token": "drank", "weight": 0.08, "note": "Drinking is the action." }
+    ],
+    "clue": "was nice and cold",
+    "insight": "The cold drinkable item is the milk."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 1,
+    "title": "Old Book",
+    "sentence": "Tom kept the book because it had his name inside.",
+    "targetText": "it",
+    "options": ["Tom", "the book", "his name"],
+    "answer": "the book",
+    "candidates": [
+      { "token": "book", "weight": 0.78, "note": "The book holds the name." },
+      { "token": "Tom", "weight": 0.13, "note": "Tom is the keeper." },
+      { "token": "name", "weight": 0.09, "note": "Name is what is inside the book." }
+    ],
+    "clue": "had his name inside",
+    "insight": "The thing with a name inside is the book."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 1,
+    "title": "Loud Bell",
+    "sentence": "Kira covered her ears when the bell rang because it was loud.",
+    "targetText": "it",
+    "options": ["Kira", "the bell", "her ears"],
+    "answer": "the bell",
+    "candidates": [
+      { "token": "bell", "weight": 0.78, "note": "The bell rang and was loud." },
+      { "token": "Kira", "weight": 0.13, "note": "Kira reacted to the sound." },
+      { "token": "ears", "weight": 0.09, "note": "Ears were covered, not loud." }
+    ],
+    "clue": "was loud",
+    "insight": "Bells ring loudly; 'it' points to the bell."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 2,
+    "title": "Wet Dog",
+    "sentence": "Emma dried the dog after it splashed in the pond.",
+    "targetText": "it",
+    "options": ["Emma", "the dog", "the pond"],
+    "answer": "the dog",
+    "candidates": [
+      { "token": "dog", "weight": 0.74, "note": "The dog splashed and got wet." },
+      { "token": "pond", "weight": 0.16, "note": "The pond is where, not who." },
+      { "token": "Emma", "weight": 0.1, "note": "Emma did the drying." }
+    ],
+    "clue": "splashed in the pond",
+    "insight": "The splasher is the dog."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 2,
+    "title": "Tasty Pizza",
+    "sentence": "Raj shared the pizza because it was much too big for him.",
+    "targetText": "it",
+    "options": ["Raj", "the pizza", "the box"],
+    "answer": "the pizza",
+    "candidates": [
+      { "token": "pizza", "weight": 0.74, "note": "The pizza was too big." },
+      { "token": "Raj", "weight": 0.14, "note": "Raj is the sharer." },
+      { "token": "shared", "weight": 0.12, "note": "Sharing is the action." }
+    ],
+    "clue": "too big for him",
+    "insight": "The big food being shared is the pizza."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 2,
+    "title": "Open Door",
+    "sentence": "Nina pushed the door so that it would not slam shut.",
+    "targetText": "it",
+    "options": ["Nina", "the door", "the room"],
+    "answer": "the door",
+    "candidates": [
+      { "token": "door", "weight": 0.75, "note": "Doors can slam shut." },
+      { "token": "Nina", "weight": 0.14, "note": "Nina pushes, not slams." },
+      { "token": "pushed", "weight": 0.11, "note": "The push is the action." }
+    ],
+    "clue": "slam shut",
+    "insight": "The thing that might slam shut is the door."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 2,
+    "title": "New Phone",
+    "sentence": "Ravi charged the phone because it had a low battery.",
+    "targetText": "it",
+    "options": ["Ravi", "the phone", "the cable"],
+    "answer": "the phone",
+    "candidates": [
+      { "token": "phone", "weight": 0.74, "note": "The phone has the battery." },
+      { "token": "battery", "weight": 0.16, "note": "Battery is the part, not the device." },
+      { "token": "Ravi", "weight": 0.1, "note": "Ravi is the charger." }
+    ],
+    "clue": "had a low battery",
+    "insight": "The low-battery item is the phone."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 2,
+    "title": "Soft Cat",
+    "sentence": "Anya pet the cat while it sat on her lap.",
+    "targetText": "it",
+    "options": ["Anya", "the cat", "her lap"],
+    "answer": "the cat",
+    "candidates": [
+      { "token": "cat", "weight": 0.76, "note": "The cat sat on her lap." },
+      { "token": "lap", "weight": 0.14, "note": "Lap is the place." },
+      { "token": "Anya", "weight": 0.1, "note": "Anya did the petting." }
+    ],
+    "clue": "sat on her lap",
+    "insight": "The sitter is the cat."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 2,
+    "title": "Slow Bus",
+    "sentence": "We caught the bus even though it arrived very late at our stop.",
+    "targetText": "it",
+    "options": ["the bus", "the stop", "the driver"],
+    "answer": "the bus",
+    "candidates": [
+      { "token": "bus", "weight": 0.76, "note": "The bus arrived late." },
+      { "token": "stop", "weight": 0.13, "note": "Stop is the place." },
+      { "token": "caught", "weight": 0.11, "note": "Catching is the action." }
+    ],
+    "clue": "arrived very late",
+    "insight": "The arriving thing is the bus."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 2,
+    "title": "Clean Plate",
+    "sentence": "Dad washed the plate after it slipped into the sauce.",
+    "targetText": "it",
+    "options": ["Dad", "the plate", "the sauce"],
+    "answer": "the plate",
+    "candidates": [
+      { "token": "plate", "weight": 0.74, "note": "The plate slipped." },
+      { "token": "sauce", "weight": 0.14, "note": "Sauce is where it landed." },
+      { "token": "Dad", "weight": 0.12, "note": "Dad is the washer." }
+    ],
+    "clue": "slipped into the sauce",
+    "insight": "The slipping object is the plate."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 2,
+    "title": "Tall Plant",
+    "sentence": "Mom watered the plant so it would not wilt today.",
+    "targetText": "it",
+    "options": ["Mom", "the plant", "the pot"],
+    "answer": "the plant",
+    "candidates": [
+      { "token": "plant", "weight": 0.76, "note": "The plant could wilt." },
+      { "token": "Mom", "weight": 0.14, "note": "Mom waters it." },
+      { "token": "watered", "weight": 0.1, "note": "Watering is the action." }
+    ],
+    "clue": "would not wilt",
+    "insight": "Wilting describes the plant."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 2,
+    "title": "Quiet Baby",
+    "sentence": "Kavi rocked the baby until it fell asleep.",
+    "targetText": "it",
+    "options": ["Kavi", "the baby", "the chair"],
+    "answer": "the baby",
+    "candidates": [
+      { "token": "baby", "weight": 0.78, "note": "The baby fell asleep." },
+      { "token": "Kavi", "weight": 0.13, "note": "Kavi did the rocking." },
+      { "token": "rocked", "weight": 0.09, "note": "Rocking is the action." }
+    ],
+    "clue": "fell asleep",
+    "insight": "Falling asleep describes the baby."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 2,
+    "title": "Bright Kite",
+    "sentence": "Riya let go of the kite and it flew far away.",
+    "targetText": "it",
+    "options": ["Riya", "the kite", "the wind"],
+    "answer": "the kite",
+    "candidates": [
+      { "token": "kite", "weight": 0.78, "note": "Kites fly when let go." },
+      { "token": "Riya", "weight": 0.13, "note": "Riya is the actor." },
+      { "token": "flew", "weight": 0.09, "note": "Flying is the action." }
+    ],
+    "clue": "flew far away",
+    "insight": "The flier is the kite."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 3,
+    "title": "Stuck Lid",
+    "sentence": "Maya pulled the lid off the jar but it would not budge.",
+    "targetText": "it",
+    "options": ["Maya", "the lid", "the jar"],
+    "answer": "the lid",
+    "candidates": [
+      { "token": "lid", "weight": 0.72, "note": "The lid was the stuck part." },
+      { "token": "jar", "weight": 0.16, "note": "Jar is the rest of the object." },
+      { "token": "pulled", "weight": 0.12, "note": "Pulling is the action." }
+    ],
+    "clue": "would not budge",
+    "insight": "The stuck part is the lid."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 3,
+    "title": "Bumpy Road",
+    "sentence": "The car rattled on the road because it was full of holes.",
+    "targetText": "it",
+    "options": ["the car", "the road", "the trip"],
+    "answer": "the road",
+    "candidates": [
+      { "token": "road", "weight": 0.7, "note": "Roads have holes." },
+      { "token": "car", "weight": 0.18, "note": "The car rattled, but holes are road features." },
+      { "token": "rattled", "weight": 0.12, "note": "Rattling is the action." }
+    ],
+    "clue": "full of holes",
+    "insight": "Holes belong to the road."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 3,
+    "title": "Cold Park",
+    "sentence": "Liam zipped the jacket because it kept the wind out.",
+    "targetText": "it",
+    "options": ["Liam", "the jacket", "the wind"],
+    "answer": "the jacket",
+    "candidates": [
+      { "token": "jacket", "weight": 0.72, "note": "Jackets block wind." },
+      { "token": "wind", "weight": 0.16, "note": "Wind is what gets blocked." },
+      { "token": "zipped", "weight": 0.12, "note": "Zipping is the action." }
+    ],
+    "clue": "kept the wind out",
+    "insight": "Blocking the wind describes the jacket."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 3,
+    "title": "Wet Towel",
+    "sentence": "Pia hung the towel on the rail so it could dry quickly.",
+    "targetText": "it",
+    "options": ["Pia", "the towel", "the rail"],
+    "answer": "the towel",
+    "candidates": [
+      { "token": "towel", "weight": 0.72, "note": "Towels dry on rails." },
+      { "token": "rail", "weight": 0.16, "note": "The rail is the support." },
+      { "token": "hung", "weight": 0.12, "note": "Hanging is the action." }
+    ],
+    "clue": "could dry quickly",
+    "insight": "Drying describes the towel."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 3,
+    "title": "Lost Toy",
+    "sentence": "Arjun found the toy after it rolled under the couch.",
+    "targetText": "it",
+    "options": ["Arjun", "the toy", "the couch"],
+    "answer": "the toy",
+    "candidates": [
+      { "token": "toy", "weight": 0.72, "note": "The toy did the rolling." },
+      { "token": "couch", "weight": 0.16, "note": "The couch is the place." },
+      { "token": "found", "weight": 0.12, "note": "Finding is the action." }
+    ],
+    "clue": "rolled under the couch",
+    "insight": "The roller is the toy."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 3,
+    "title": "Hard Test",
+    "sentence": "Sara reread the test because it had tricky questions on it.",
+    "targetText": "it",
+    "options": ["Sara", "the test", "the desk"],
+    "answer": "the test",
+    "candidates": [
+      { "token": "test", "weight": 0.74, "note": "The test holds the questions." },
+      { "token": "Sara", "weight": 0.14, "note": "Sara is the reader." },
+      { "token": "reread", "weight": 0.12, "note": "Rereading is the action." }
+    ],
+    "clue": "had tricky questions",
+    "insight": "The thing with tricky questions is the test."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 3,
+    "title": "Open Bag",
+    "sentence": "Eli zipped the bag after it nearly tipped over.",
+    "targetText": "it",
+    "options": ["Eli", "the bag", "the floor"],
+    "answer": "the bag",
+    "candidates": [
+      { "token": "bag", "weight": 0.74, "note": "The bag tipped." },
+      { "token": "Eli", "weight": 0.14, "note": "Eli closed it." },
+      { "token": "zipped", "weight": 0.12, "note": "Zipping is the action." }
+    ],
+    "clue": "nearly tipped over",
+    "insight": "The tipper is the bag."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 3,
+    "title": "Sharp Knife",
+    "sentence": "Dad set the knife aside because it had a chipped edge.",
+    "targetText": "it",
+    "options": ["Dad", "the knife", "the edge"],
+    "answer": "the knife",
+    "candidates": [
+      { "token": "knife", "weight": 0.74, "note": "The knife has the edge." },
+      { "token": "edge", "weight": 0.14, "note": "Edge is part of the knife." },
+      { "token": "set", "weight": 0.12, "note": "Setting aside is the action." }
+    ],
+    "clue": "had a chipped edge",
+    "insight": "The thing with a chipped edge is the knife."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 3,
+    "title": "New Movie",
+    "sentence": "Tara paused the movie because it became too scary for her.",
+    "targetText": "it",
+    "options": ["Tara", "the movie", "the room"],
+    "answer": "the movie",
+    "candidates": [
+      { "token": "movie", "weight": 0.74, "note": "The movie became scary." },
+      { "token": "Tara", "weight": 0.14, "note": "Tara reacted." },
+      { "token": "paused", "weight": 0.12, "note": "Pausing is the action." }
+    ],
+    "clue": "became too scary",
+    "insight": "The scary thing is the movie."
+  },
+  {
+    "level": "beginner",
+    "difficulty": 3,
+    "title": "Tight Lid",
+    "sentence": "Nora twisted the cap until it finally came loose.",
+    "targetText": "it",
+    "options": ["Nora", "the cap", "the bottle"],
+    "answer": "the cap",
+    "candidates": [
+      { "token": "cap", "weight": 0.74, "note": "The cap came loose." },
+      { "token": "Nora", "weight": 0.14, "note": "Nora did the twisting." },
+      { "token": "twisted", "weight": 0.12, "note": "Twisting is the action." }
+    ],
+    "clue": "came loose",
+    "insight": "The loosened part is the cap."
+  },
+  {
+    "level": "builder",
+    "difficulty": 1,
+    "title": "Cracked Mug",
+    "sentence": "Karim threw out the mug because it had a long crack.",
+    "targetText": "it",
+    "options": ["Karim", "the mug", "the shelf"],
+    "answer": "the mug",
+    "candidates": [
+      { "token": "mug", "weight": 0.7, "note": "The mug is the cracked item." },
+      { "token": "crack", "weight": 0.18, "note": "The crack is the feature, not the holder." },
+      { "token": "threw", "weight": 0.12, "note": "Throwing out is the action." }
+    ],
+    "clue": "had a long crack",
+    "insight": "The cracked item being tossed is the mug."
+  },
+  {
+    "level": "builder",
+    "difficulty": 1,
+    "title": "Tight Shoe",
+    "sentence": "Aisha returned the shoe because it pinched her toes.",
+    "targetText": "it",
+    "options": ["Aisha", "the shoe", "the store"],
+    "answer": "the shoe",
+    "candidates": [
+      { "token": "shoe", "weight": 0.7, "note": "The shoe is what pinched." },
+      { "token": "toes", "weight": 0.17, "note": "Toes are what got pinched." },
+      { "token": "Aisha", "weight": 0.13, "note": "Aisha is the wearer." }
+    ],
+    "clue": "pinched her toes",
+    "insight": "The pinching item is the shoe."
+  },
+  {
+    "level": "builder",
+    "difficulty": 1,
+    "title": "Quiet Class",
+    "sentence": "The teacher praised the class because it had stayed calm.",
+    "targetText": "it",
+    "options": ["the teacher", "the class", "the lesson"],
+    "answer": "the class",
+    "candidates": [
+      { "token": "class", "weight": 0.7, "note": "The class stayed calm." },
+      { "token": "teacher", "weight": 0.18, "note": "The teacher gave the praise." },
+      { "token": "praised", "weight": 0.12, "note": "Praising is the action." }
+    ],
+    "clue": "had stayed calm",
+    "insight": "The calm group is the class."
+  },
+  {
+    "level": "builder",
+    "difficulty": 1,
+    "title": "Sour Lemon",
+    "sentence": "Diya rinsed the lemon before she sliced it for the salad.",
+    "targetText": "it",
+    "options": ["Diya", "the lemon", "the salad"],
+    "answer": "the lemon",
+    "candidates": [
+      { "token": "lemon", "weight": 0.7, "note": "The lemon is the thing being sliced." },
+      { "token": "salad", "weight": 0.16, "note": "The salad is the destination." },
+      { "token": "Diya", "weight": 0.14, "note": "Diya is the actor." }
+    ],
+    "clue": "sliced it for the salad",
+    "insight": "The sliced food is the lemon."
+  },
+  {
+    "level": "builder",
+    "difficulty": 1,
+    "title": "Late Train",
+    "sentence": "Samir missed the train because it left earlier than the board said.",
+    "targetText": "it",
+    "options": ["Samir", "the train", "the board"],
+    "answer": "the train",
+    "candidates": [
+      { "token": "train", "weight": 0.7, "note": "Trains leave on schedules." },
+      { "token": "board", "weight": 0.18, "note": "The board listed the time." },
+      { "token": "missed", "weight": 0.12, "note": "Missing is the action." }
+    ],
+    "clue": "left earlier than the board said",
+    "insight": "The departing thing is the train."
+  },
+  {
+    "level": "builder",
+    "difficulty": 1,
+    "title": "Old Bike",
+    "sentence": "Riya cleaned the bike after it had sat in the rain.",
+    "targetText": "it",
+    "options": ["Riya", "the bike", "the rain"],
+    "answer": "the bike",
+    "candidates": [
+      { "token": "bike", "weight": 0.7, "note": "The bike sat in the rain." },
+      { "token": "rain", "weight": 0.17, "note": "Rain is the cause, not the sitter." },
+      { "token": "cleaned", "weight": 0.13, "note": "Cleaning is the action." }
+    ],
+    "clue": "had sat in the rain",
+    "insight": "The wet item being cleaned is the bike."
+  },
+  {
+    "level": "builder",
+    "difficulty": 1,
+    "title": "Soft Pillow",
+    "sentence": "Mia hugged the pillow while it warmed her cold cheek.",
+    "targetText": "it",
+    "options": ["Mia", "the pillow", "the bed"],
+    "answer": "the pillow",
+    "candidates": [
+      { "token": "pillow", "weight": 0.72, "note": "The pillow does the warming." },
+      { "token": "cheek", "weight": 0.16, "note": "Cheek is what got warm." },
+      { "token": "Mia", "weight": 0.12, "note": "Mia is the hugger." }
+    ],
+    "clue": "warmed her cold cheek",
+    "insight": "The warming object is the pillow."
+  },
+  {
+    "level": "builder",
+    "difficulty": 1,
+    "title": "Wet Floor",
+    "sentence": "Jay mopped the floor again because it kept staying damp.",
+    "targetText": "it",
+    "options": ["Jay", "the floor", "the mop"],
+    "answer": "the floor",
+    "candidates": [
+      { "token": "floor", "weight": 0.7, "note": "The floor stayed damp." },
+      { "token": "damp", "weight": 0.18, "note": "Damp is the state, not the surface." },
+      { "token": "mopped", "weight": 0.12, "note": "Mopping is the action." }
+    ],
+    "clue": "kept staying damp",
+    "insight": "The damp surface is the floor."
+  },
+  {
+    "level": "builder",
+    "difficulty": 1,
+    "title": "New Pen",
+    "sentence": "Vidya tested the pen after it had stopped writing well.",
+    "targetText": "it",
+    "options": ["Vidya", "the pen", "the page"],
+    "answer": "the pen",
+    "candidates": [
+      { "token": "pen", "weight": 0.7, "note": "The pen does the writing." },
+      { "token": "writing", "weight": 0.18, "note": "Writing is the function." },
+      { "token": "tested", "weight": 0.12, "note": "Testing is the action." }
+    ],
+    "clue": "had stopped writing well",
+    "insight": "The writing tool is the pen."
+  },
+  {
+    "level": "builder",
+    "difficulty": 1,
+    "title": "Dim Lamp",
+    "sentence": "Mom moved the lamp because it cast too dim a glow.",
+    "targetText": "it",
+    "options": ["Mom", "the lamp", "the glow"],
+    "answer": "the lamp",
+    "candidates": [
+      { "token": "lamp", "weight": 0.7, "note": "The lamp casts the glow." },
+      { "token": "glow", "weight": 0.18, "note": "The glow is what was dim." },
+      { "token": "moved", "weight": 0.12, "note": "Moving is the action." }
+    ],
+    "clue": "cast too dim a glow",
+    "insight": "The light source is the lamp."
+  },
+  {
+    "level": "builder",
+    "difficulty": 2,
+    "title": "Dropped Catch",
+    "sentence": "The fielder dropped the ball after it bounced off his glove.",
+    "targetText": "it",
+    "options": ["the fielder", "the ball", "the glove"],
+    "answer": "the ball",
+    "candidates": [
+      { "token": "ball", "weight": 0.66, "note": "The ball bounced." },
+      { "token": "glove", "weight": 0.2, "note": "The glove is what it bounced off." },
+      { "token": "fielder", "weight": 0.14, "note": "The fielder is the dropper." }
+    ],
+    "clue": "bounced off his glove",
+    "insight": "The bouncing object is the ball."
+  },
+  {
+    "level": "builder",
+    "difficulty": 2,
+    "title": "Flat Tire",
+    "sentence": "Luca filled the tire after it had lost most of its air.",
+    "targetText": "it",
+    "options": ["Luca", "the tire", "the air"],
+    "answer": "the tire",
+    "candidates": [
+      { "token": "tire", "weight": 0.66, "note": "The tire lost air." },
+      { "token": "air", "weight": 0.2, "note": "Air is what was lost." },
+      { "token": "Luca", "weight": 0.14, "note": "Luca did the filling." }
+    ],
+    "clue": "had lost most of its air",
+    "insight": "The deflated object is the tire."
+  },
+  {
+    "level": "builder",
+    "difficulty": 2,
+    "title": "Burnt Toast",
+    "sentence": "Ravi tossed the toast because it had turned an ugly black.",
+    "targetText": "it",
+    "options": ["Ravi", "the toast", "the toaster"],
+    "answer": "the toast",
+    "candidates": [
+      { "token": "toast", "weight": 0.68, "note": "The toast turned black." },
+      { "token": "black", "weight": 0.18, "note": "Black is the color, not the food." },
+      { "token": "Ravi", "weight": 0.14, "note": "Ravi is the tosser." }
+    ],
+    "clue": "had turned an ugly black",
+    "insight": "The blackened item is the toast."
+  },
+  {
+    "level": "builder",
+    "difficulty": 2,
+    "title": "Slow Lift",
+    "sentence": "Ayan took the stairs since the lift had stalled and it stayed stuck.",
+    "targetText": "it",
+    "options": ["Ayan", "the lift", "the stairs"],
+    "answer": "the lift",
+    "candidates": [
+      { "token": "lift", "weight": 0.68, "note": "The lift stalled and stayed stuck." },
+      { "token": "stairs", "weight": 0.18, "note": "Stairs are the alternative." },
+      { "token": "stalled", "weight": 0.14, "note": "Stalling is the cause." }
+    ],
+    "clue": "had stalled",
+    "insight": "The stalled machine is the lift."
+  },
+  {
+    "level": "builder",
+    "difficulty": 2,
+    "title": "Big Box",
+    "sentence": "Sara cut open the box because it had tape on every seam.",
+    "targetText": "it",
+    "options": ["Sara", "the box", "the tape"],
+    "answer": "the box",
+    "candidates": [
+      { "token": "box", "weight": 0.66, "note": "The box has the seams." },
+      { "token": "tape", "weight": 0.2, "note": "Tape is on the box." },
+      { "token": "cut", "weight": 0.14, "note": "Cutting is the action." }
+    ],
+    "clue": "had tape on every seam",
+    "insight": "The taped object is the box."
+  },
+  {
+    "level": "builder",
+    "difficulty": 2,
+    "title": "Loud Fan",
+    "sentence": "Dad oiled the fan because it had begun to squeak loudly.",
+    "targetText": "it",
+    "options": ["Dad", "the fan", "the oil"],
+    "answer": "the fan",
+    "candidates": [
+      { "token": "fan", "weight": 0.68, "note": "The fan was squeaking." },
+      { "token": "squeak", "weight": 0.18, "note": "Squeak is the sound." },
+      { "token": "oiled", "weight": 0.14, "note": "Oiling is the action." }
+    ],
+    "clue": "had begun to squeak loudly",
+    "insight": "The squeaking machine is the fan."
+  },
+  {
+    "level": "builder",
+    "difficulty": 2,
+    "title": "Cool Drink",
+    "sentence": "Arjun set the can aside because it had grown lukewarm fast.",
+    "targetText": "it",
+    "options": ["Arjun", "the can", "the table"],
+    "answer": "the can",
+    "candidates": [
+      { "token": "can", "weight": 0.68, "note": "The can held the drink." },
+      { "token": "lukewarm", "weight": 0.18, "note": "Lukewarm is the state." },
+      { "token": "set", "weight": 0.14, "note": "Setting aside is the action." }
+    ],
+    "clue": "had grown lukewarm fast",
+    "insight": "The warming drink is the can."
+  },
+  {
+    "level": "builder",
+    "difficulty": 2,
+    "title": "Open Gate",
+    "sentence": "Ria latched the gate after it swung wide in the wind.",
+    "targetText": "it",
+    "options": ["Ria", "the gate", "the wind"],
+    "answer": "the gate",
+    "candidates": [
+      { "token": "gate", "weight": 0.68, "note": "The gate swung." },
+      { "token": "wind", "weight": 0.18, "note": "Wind is the cause." },
+      { "token": "latched", "weight": 0.14, "note": "Latching is the action." }
+    ],
+    "clue": "swung wide in the wind",
+    "insight": "The swinging object is the gate."
+  },
+  {
+    "level": "builder",
+    "difficulty": 2,
+    "title": "Soft Cake",
+    "sentence": "Tara pulled the cake from the oven before it could sink.",
+    "targetText": "it",
+    "options": ["Tara", "the cake", "the oven"],
+    "answer": "the cake",
+    "candidates": [
+      { "token": "cake", "weight": 0.68, "note": "The cake might sink." },
+      { "token": "oven", "weight": 0.18, "note": "Oven is the place." },
+      { "token": "pulled", "weight": 0.14, "note": "Pulling out is the action." }
+    ],
+    "clue": "before it could sink",
+    "insight": "The bake at risk is the cake."
+  },
+  {
+    "level": "builder",
+    "difficulty": 2,
+    "title": "Lost Key",
+    "sentence": "Nora retraced her steps to find the key since it had to be there.",
+    "targetText": "it",
+    "options": ["Nora", "the key", "her steps"],
+    "answer": "the key",
+    "candidates": [
+      { "token": "key", "weight": 0.68, "note": "The key was the lost item." },
+      { "token": "steps", "weight": 0.18, "note": "Steps are what she retraced." },
+      { "token": "retraced", "weight": 0.14, "note": "Retracing is the action." }
+    ],
+    "clue": "had to be there",
+    "insight": "The thing that had to be there is the key."
+  },
+  {
+    "level": "builder",
+    "difficulty": 3,
+    "title": "Stalled Game",
+    "sentence": "The coach paused the game because it had grown messy fast.",
+    "targetText": "it",
+    "options": ["the coach", "the game", "the crowd"],
+    "answer": "the game",
+    "candidates": [
+      { "token": "game", "weight": 0.64, "note": "The game grew messy." },
+      { "token": "messy", "weight": 0.2, "note": "Messy is the state, not the actor." },
+      { "token": "coach", "weight": 0.16, "note": "The coach makes the call." }
+    ],
+    "clue": "had grown messy fast",
+    "insight": "The thing growing messy is the game itself."
+  },
+  {
+    "level": "builder",
+    "difficulty": 3,
+    "title": "Slow Edit",
+    "sentence": "Tina paused the video because it had played at a low rate.",
+    "targetText": "it",
+    "options": ["Tina", "the video", "the rate"],
+    "answer": "the video",
+    "candidates": [
+      { "token": "video", "weight": 0.64, "note": "The video played at low rate." },
+      { "token": "rate", "weight": 0.2, "note": "Rate is the speed value." },
+      { "token": "paused", "weight": 0.16, "note": "Pausing is the action." }
+    ],
+    "clue": "played at a low rate",
+    "insight": "The playing item is the video."
+  },
+  {
+    "level": "builder",
+    "difficulty": 3,
+    "title": "Cold Stew",
+    "sentence": "Mom heated the stew so that it would warm the family up.",
+    "targetText": "it",
+    "options": ["Mom", "the stew", "the family"],
+    "answer": "the stew",
+    "candidates": [
+      { "token": "stew", "weight": 0.64, "note": "The stew does the warming." },
+      { "token": "family", "weight": 0.2, "note": "The family is who gets warm." },
+      { "token": "heated", "weight": 0.16, "note": "Heating is the action." }
+    ],
+    "clue": "warm the family up",
+    "insight": "The warming food is the stew."
+  },
+  {
+    "level": "builder",
+    "difficulty": 3,
+    "title": "Wet Map",
+    "sentence": "Rohan flattened the map after it had crinkled in his bag.",
+    "targetText": "it",
+    "options": ["Rohan", "the map", "the bag"],
+    "answer": "the map",
+    "candidates": [
+      { "token": "map", "weight": 0.66, "note": "The map crinkled." },
+      { "token": "bag", "weight": 0.2, "note": "The bag is the place." },
+      { "token": "flattened", "weight": 0.14, "note": "Flattening is the action." }
+    ],
+    "clue": "had crinkled in his bag",
+    "insight": "The crinkled paper is the map."
+  },
+  {
+    "level": "builder",
+    "difficulty": 3,
+    "title": "Late Email",
+    "sentence": "Anil sent the email twice because it had not gone through.",
+    "targetText": "it",
+    "options": ["Anil", "the email", "the box"],
+    "answer": "the email",
+    "candidates": [
+      { "token": "email", "weight": 0.66, "note": "The email failed to send." },
+      { "token": "Anil", "weight": 0.18, "note": "Anil is the sender." },
+      { "token": "sent", "weight": 0.16, "note": "Sending is the action." }
+    ],
+    "clue": "had not gone through",
+    "insight": "The unsent message is the email."
+  },
+  {
+    "level": "builder",
+    "difficulty": 3,
+    "title": "Empty Tank",
+    "sentence": "Pria filled the tank since it had run dry on the way.",
+    "targetText": "it",
+    "options": ["Pria", "the tank", "the car"],
+    "answer": "the tank",
+    "candidates": [
+      { "token": "tank", "weight": 0.64, "note": "The tank ran dry." },
+      { "token": "way", "weight": 0.2, "note": "The way is the trip context." },
+      { "token": "filled", "weight": 0.16, "note": "Filling is the action." }
+    ],
+    "clue": "had run dry on the way",
+    "insight": "The dry container is the tank."
+  },
+  {
+    "level": "builder",
+    "difficulty": 3,
+    "title": "Worn Rope",
+    "sentence": "Naina swapped the rope because it had frayed at both ends.",
+    "targetText": "it",
+    "options": ["Naina", "the rope", "the ends"],
+    "answer": "the rope",
+    "candidates": [
+      { "token": "rope", "weight": 0.66, "note": "The rope frayed." },
+      { "token": "ends", "weight": 0.2, "note": "Ends are where the fraying showed." },
+      { "token": "swapped", "weight": 0.14, "note": "Swapping is the action." }
+    ],
+    "clue": "had frayed at both ends",
+    "insight": "The frayed item is the rope."
+  },
+  {
+    "level": "builder",
+    "difficulty": 3,
+    "title": "Shy Pup",
+    "sentence": "The vet calmed the pup until it stopped shaking in his arms.",
+    "targetText": "it",
+    "options": ["the vet", "the pup", "the arms"],
+    "answer": "the pup",
+    "candidates": [
+      { "token": "pup", "weight": 0.68, "note": "The pup was shaking." },
+      { "token": "arms", "weight": 0.2, "note": "Arms are the place." },
+      { "token": "vet", "weight": 0.12, "note": "The vet did the calming." }
+    ],
+    "clue": "stopped shaking in his arms",
+    "insight": "The shaker is the pup."
+  },
+  {
+    "level": "builder",
+    "difficulty": 3,
+    "title": "Stiff Lock",
+    "sentence": "Sami sprayed the lock after it had jammed all winter long.",
+    "targetText": "it",
+    "options": ["Sami", "the lock", "the spray"],
+    "answer": "the lock",
+    "candidates": [
+      { "token": "lock", "weight": 0.66, "note": "The lock jammed." },
+      { "token": "winter", "weight": 0.2, "note": "Winter is the time." },
+      { "token": "sprayed", "weight": 0.14, "note": "Spraying is the action." }
+    ],
+    "clue": "had jammed all winter long",
+    "insight": "The jammed item is the lock."
+  },
+  {
+    "level": "builder",
+    "difficulty": 3,
+    "title": "Loud Talk",
+    "sentence": "Mira muted the call once it had grown loud and tense.",
+    "targetText": "it",
+    "options": ["Mira", "the phone", "the call"],
+    "answer": "the call",
+    "candidates": [
+      { "token": "call", "weight": 0.66, "note": "The call grew loud and tense." },
+      { "token": "Mira", "weight": 0.2, "note": "Mira muted in response." },
+      { "token": "muted", "weight": 0.14, "note": "Muting is the action." }
+    ],
+    "clue": "had grown loud and tense",
+    "insight": "The loud thing is the call itself."
+  },
+  {
+    "level": "builder",
+    "difficulty": 4,
+    "title": "Cracked Plan",
+    "sentence": "The team revised the plan after it had failed an early test.",
+    "targetText": "it",
+    "options": ["the team", "the plan", "the test"],
+    "answer": "the plan",
+    "candidates": [
+      { "token": "plan", "weight": 0.62, "note": "The plan failed the test." },
+      { "token": "test", "weight": 0.22, "note": "The test is the cause." },
+      { "token": "team", "weight": 0.16, "note": "The team revises the plan." }
+    ],
+    "clue": "had failed an early test",
+    "insight": "The failing item is the plan."
+  },
+  {
+    "level": "builder",
+    "difficulty": 4,
+    "title": "Stale Bread",
+    "sentence": "Maya tossed the bread because it had grown hard and crumbly.",
+    "targetText": "it",
+    "options": ["Maya", "the bread", "the loaf"],
+    "answer": "the bread",
+    "candidates": [
+      { "token": "bread", "weight": 0.62, "note": "The bread grew hard." },
+      { "token": "hard", "weight": 0.22, "note": "Hard is the state, not the thing." },
+      { "token": "tossed", "weight": 0.16, "note": "Tossing is the action." }
+    ],
+    "clue": "had grown hard and crumbly",
+    "insight": "The hardened food is the bread."
+  },
+  {
+    "level": "builder",
+    "difficulty": 4,
+    "title": "Slow Site",
+    "sentence": "Dev rebuilt the site once it had slowed to a crawl daily.",
+    "targetText": "it",
+    "options": ["Dev", "the site", "the speed"],
+    "answer": "the site",
+    "candidates": [
+      { "token": "site", "weight": 0.62, "note": "The site slowed down." },
+      { "token": "crawl", "weight": 0.22, "note": "Crawl is the speed clue." },
+      { "token": "rebuilt", "weight": 0.16, "note": "Rebuilding is the action." }
+    ],
+    "clue": "had slowed to a crawl daily",
+    "insight": "The slow product is the site."
+  },
+  {
+    "level": "builder",
+    "difficulty": 4,
+    "title": "Worn Tire",
+    "sentence": "The driver swapped the tire because it had bald spots forming.",
+    "targetText": "it",
+    "options": ["the driver", "the tire", "the road"],
+    "answer": "the tire",
+    "candidates": [
+      { "token": "tire", "weight": 0.62, "note": "The tire had bald spots." },
+      { "token": "spots", "weight": 0.22, "note": "Spots are the wear marks." },
+      { "token": "driver", "weight": 0.16, "note": "The driver swapped it." }
+    ],
+    "clue": "had bald spots forming",
+    "insight": "The worn part is the tire."
+  },
+  {
+    "level": "builder",
+    "difficulty": 4,
+    "title": "Hot Engine",
+    "sentence": "Anya pulled the car over once it had begun to smoke a lot.",
+    "targetText": "it",
+    "options": ["Anya", "the car", "the road"],
+    "answer": "the car",
+    "candidates": [
+      { "token": "car", "weight": 0.64, "note": "The car began to smoke." },
+      { "token": "Anya", "weight": 0.2, "note": "Anya pulled over in response." },
+      { "token": "smoke", "weight": 0.16, "note": "Smoke is the symptom." }
+    ],
+    "clue": "had begun to smoke a lot",
+    "insight": "The smoking thing is the car."
+  },
+  {
+    "level": "builder",
+    "difficulty": 4,
+    "title": "Lost Trail",
+    "sentence": "Eli redrew the trail because it had washed out in the storm.",
+    "targetText": "it",
+    "options": ["Eli", "the trail", "the storm"],
+    "answer": "the trail",
+    "candidates": [
+      { "token": "trail", "weight": 0.62, "note": "The trail washed out." },
+      { "token": "storm", "weight": 0.22, "note": "The storm caused it." },
+      { "token": "redrew", "weight": 0.16, "note": "Redrawing is the action." }
+    ],
+    "clue": "had washed out in the storm",
+    "insight": "The damaged path is the trail."
+  },
+  {
+    "level": "builder",
+    "difficulty": 4,
+    "title": "Faint Beam",
+    "sentence": "Asha replaced the torch since it had dimmed during the long hike.",
+    "targetText": "it",
+    "options": ["Asha", "the torch", "the hike"],
+    "answer": "the torch",
+    "candidates": [
+      { "token": "torch", "weight": 0.62, "note": "The torch dimmed." },
+      { "token": "hike", "weight": 0.22, "note": "Hike is the time context." },
+      { "token": "replaced", "weight": 0.16, "note": "Replacing is the action." }
+    ],
+    "clue": "had dimmed during the long hike",
+    "insight": "The dimming light is the torch."
+  },
+  {
+    "level": "builder",
+    "difficulty": 4,
+    "title": "Bent Frame",
+    "sentence": "Ravi tossed the frame because it had warped in the heat.",
+    "targetText": "it",
+    "options": ["Ravi", "the frame", "the heat"],
+    "answer": "the frame",
+    "candidates": [
+      { "token": "frame", "weight": 0.62, "note": "The frame warped." },
+      { "token": "heat", "weight": 0.22, "note": "Heat is the cause." },
+      { "token": "tossed", "weight": 0.16, "note": "Tossing is the action." }
+    ],
+    "clue": "had warped in the heat",
+    "insight": "The warped part is the frame."
+  },
+  {
+    "level": "builder",
+    "difficulty": 4,
+    "title": "Quiet Bell",
+    "sentence": "The clerk fixed the bell after it had stopped ringing at all.",
+    "targetText": "it",
+    "options": ["the clerk", "the bell", "the door"],
+    "answer": "the bell",
+    "candidates": [
+      { "token": "bell", "weight": 0.64, "note": "The bell stopped ringing." },
+      { "token": "clerk", "weight": 0.2, "note": "The clerk did the repair." },
+      { "token": "fixed", "weight": 0.16, "note": "Fixing is the action." }
+    ],
+    "clue": "had stopped ringing at all",
+    "insight": "The silent device is the bell."
+  },
+  {
+    "level": "builder",
+    "difficulty": 4,
+    "title": "Faded Sign",
+    "sentence": "Mira repainted the sign because it had bleached in the sun.",
+    "targetText": "it",
+    "options": ["Mira", "the sign", "the sun"],
+    "answer": "the sign",
+    "candidates": [
+      { "token": "sign", "weight": 0.62, "note": "The sign bleached." },
+      { "token": "sun", "weight": 0.22, "note": "The sun is the cause." },
+      { "token": "repainted", "weight": 0.16, "note": "Repainting is the action." }
+    ],
+    "clue": "had bleached in the sun",
+    "insight": "The faded item is the sign."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 1,
+    "title": "Failed Audit",
+    "sentence": "The board paused the rollout once it had failed an internal audit review.",
+    "targetText": "it",
+    "options": ["the board", "the rollout", "the review"],
+    "answer": "the rollout",
+    "candidates": [
+      { "token": "rollout", "weight": 0.6, "note": "The rollout failed the audit." },
+      { "token": "board", "weight": 0.22, "note": "The board paused things." },
+      { "token": "audit", "weight": 0.18, "note": "The audit is what found the issue." }
+    ],
+    "clue": "had failed an internal audit review",
+    "insight": "The failing item under review is the rollout."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 1,
+    "title": "Stale Brief",
+    "sentence": "The lawyer rewrote the brief because it had cited an outdated ruling.",
+    "targetText": "it",
+    "options": ["the lawyer", "the brief", "the ruling"],
+    "answer": "the brief",
+    "candidates": [
+      { "token": "brief", "weight": 0.6, "note": "The brief did the citing." },
+      { "token": "ruling", "weight": 0.22, "note": "The ruling is what was cited." },
+      { "token": "lawyer", "weight": 0.18, "note": "The lawyer is the writer." }
+    ],
+    "clue": "had cited an outdated ruling",
+    "insight": "The thing doing the citing is the brief."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 1,
+    "title": "Slow Query",
+    "sentence": "The team rewrote the query after it had timed out under load.",
+    "targetText": "it",
+    "options": ["the team", "the query", "the load"],
+    "answer": "the query",
+    "candidates": [
+      { "token": "query", "weight": 0.6, "note": "The query timed out." },
+      { "token": "load", "weight": 0.22, "note": "Load is the trigger." },
+      { "token": "team", "weight": 0.18, "note": "The team did the rewrite." }
+    ],
+    "clue": "had timed out under load",
+    "insight": "The slow request is the query."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 1,
+    "title": "Bad Patch",
+    "sentence": "The engineer rolled back the patch since it had broken a key flow.",
+    "targetText": "it",
+    "options": ["the engineer", "the patch", "the flow"],
+    "answer": "the patch",
+    "candidates": [
+      { "token": "patch", "weight": 0.6, "note": "The patch broke the flow." },
+      { "token": "flow", "weight": 0.22, "note": "The flow is what got broken." },
+      { "token": "engineer", "weight": 0.18, "note": "The engineer did the revert." }
+    ],
+    "clue": "had broken a key flow",
+    "insight": "The breaking change is the patch."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 1,
+    "title": "Vague Claim",
+    "sentence": "The editor flagged the claim because it had rested on weak data.",
+    "targetText": "it",
+    "options": ["the editor", "the claim", "the data"],
+    "answer": "the claim",
+    "candidates": [
+      { "token": "claim", "weight": 0.6, "note": "The claim rested on the data." },
+      { "token": "data", "weight": 0.22, "note": "Data is the support." },
+      { "token": "editor", "weight": 0.18, "note": "The editor did the flagging." }
+    ],
+    "clue": "had rested on weak data",
+    "insight": "The unsupported item is the claim."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 1,
+    "title": "Soft Demand",
+    "sentence": "The seller cut the price once it had stalled the slow buyer pool.",
+    "targetText": "it",
+    "options": ["the seller", "the price", "the pool"],
+    "answer": "the price",
+    "candidates": [
+      { "token": "price", "weight": 0.6, "note": "The price stalled buyers." },
+      { "token": "pool", "weight": 0.22, "note": "The buyer pool is the audience." },
+      { "token": "seller", "weight": 0.18, "note": "The seller cut things." }
+    ],
+    "clue": "had stalled the slow buyer pool",
+    "insight": "The stalling lever is the price."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 1,
+    "title": "Frail Build",
+    "sentence": "The lead dropped the build because it had failed a smoke test.",
+    "targetText": "it",
+    "options": ["the lead", "the build", "the test"],
+    "answer": "the build",
+    "candidates": [
+      { "token": "build", "weight": 0.6, "note": "The build failed the test." },
+      { "token": "test", "weight": 0.22, "note": "The test is the gate." },
+      { "token": "lead", "weight": 0.18, "note": "The lead did the drop." }
+    ],
+    "clue": "had failed a smoke test",
+    "insight": "The failing artifact is the build."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 1,
+    "title": "Loose Draft",
+    "sentence": "The writer tightened the draft after it had drifted from the core idea.",
+    "targetText": "it",
+    "options": ["the writer", "the draft", "the idea"],
+    "answer": "the draft",
+    "candidates": [
+      { "token": "draft", "weight": 0.6, "note": "The draft drifted." },
+      { "token": "idea", "weight": 0.22, "note": "The idea is the anchor." },
+      { "token": "writer", "weight": 0.18, "note": "The writer did the edit." }
+    ],
+    "clue": "had drifted from the core idea",
+    "insight": "The drifting text is the draft."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 1,
+    "title": "Tight Budget",
+    "sentence": "The board cut the budget since it had grown well past the cap.",
+    "targetText": "it",
+    "options": ["the board", "the budget", "the cap"],
+    "answer": "the budget",
+    "candidates": [
+      { "token": "budget", "weight": 0.6, "note": "The budget grew past the cap." },
+      { "token": "cap", "weight": 0.22, "note": "The cap is the limit." },
+      { "token": "board", "weight": 0.18, "note": "The board did the cut." }
+    ],
+    "clue": "had grown well past the cap",
+    "insight": "The bloated number is the budget."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 1,
+    "title": "Stale Model",
+    "sentence": "The data team retired the model because it had drifted in recent weeks.",
+    "targetText": "it",
+    "options": ["the data team", "the model", "the weeks"],
+    "answer": "the model",
+    "candidates": [
+      { "token": "model", "weight": 0.6, "note": "The model drifted." },
+      { "token": "weeks", "weight": 0.22, "note": "Weeks are the timing." },
+      { "token": "team", "weight": 0.18, "note": "The team did the retire." }
+    ],
+    "clue": "had drifted in recent weeks",
+    "insight": "The drifting artifact is the model."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 2,
+    "title": "Weak Pitch",
+    "sentence": "The founder reworked the pitch after backers said that it had felt vague.",
+    "targetText": "it",
+    "options": ["the founder", "the pitch", "the backers"],
+    "answer": "the pitch",
+    "candidates": [
+      { "token": "pitch", "weight": 0.58, "note": "The pitch felt vague." },
+      { "token": "backers", "weight": 0.24, "note": "Backers gave the feedback." },
+      { "token": "founder", "weight": 0.18, "note": "The founder reworks it." }
+    ],
+    "clue": "had felt vague",
+    "insight": "The vague item under review is the pitch."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 2,
+    "title": "Off Forecast",
+    "sentence": "The analyst redid the forecast once auditors saw that it had used stale data.",
+    "targetText": "it",
+    "options": ["the analyst", "the forecast", "the data"],
+    "answer": "the forecast",
+    "candidates": [
+      { "token": "forecast", "weight": 0.58, "note": "The forecast used stale data." },
+      { "token": "data", "weight": 0.24, "note": "Data is the input." },
+      { "token": "auditors", "weight": 0.18, "note": "Auditors caught it." }
+    ],
+    "clue": "had used stale data",
+    "insight": "The flawed output is the forecast."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 2,
+    "title": "Bare Spec",
+    "sentence": "The PM rewrote the spec once reviewers felt that it had skipped key cases.",
+    "targetText": "it",
+    "options": ["the PM", "the spec", "the cases"],
+    "answer": "the spec",
+    "candidates": [
+      { "token": "spec", "weight": 0.58, "note": "The spec skipped cases." },
+      { "token": "cases", "weight": 0.24, "note": "Cases are what it omitted." },
+      { "token": "PM", "weight": 0.18, "note": "The PM did the edit." }
+    ],
+    "clue": "had skipped key cases",
+    "insight": "The lacking document is the spec."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 2,
+    "title": "Slow Probe",
+    "sentence": "The lab paused the probe since it had stalled at the second stage.",
+    "targetText": "it",
+    "options": ["the lab", "the probe", "the stage"],
+    "answer": "the probe",
+    "candidates": [
+      { "token": "probe", "weight": 0.58, "note": "The probe stalled." },
+      { "token": "stage", "weight": 0.24, "note": "Stage is where it stalled." },
+      { "token": "lab", "weight": 0.18, "note": "The lab paused things." }
+    ],
+    "clue": "had stalled at the second stage",
+    "insight": "The stalled effort is the probe."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 2,
+    "title": "Bent Beam",
+    "sentence": "The crew swapped the beam because it had warped under load over time.",
+    "targetText": "it",
+    "options": ["the crew", "the beam", "the load"],
+    "answer": "the beam",
+    "candidates": [
+      { "token": "beam", "weight": 0.58, "note": "The beam warped." },
+      { "token": "load", "weight": 0.24, "note": "Load is the cause." },
+      { "token": "crew", "weight": 0.18, "note": "The crew did the swap." }
+    ],
+    "clue": "had warped under load over time",
+    "insight": "The warped part is the beam."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 2,
+    "title": "Lost Lead",
+    "sentence": "The runner gave up the lead once it had slipped late in the race.",
+    "targetText": "it",
+    "options": ["the runner", "the lead", "the race"],
+    "answer": "the lead",
+    "candidates": [
+      { "token": "lead", "weight": 0.58, "note": "The lead slipped." },
+      { "token": "race", "weight": 0.24, "note": "Race is the context." },
+      { "token": "runner", "weight": 0.18, "note": "The runner gave it up." }
+    ],
+    "clue": "had slipped late in the race",
+    "insight": "The slipping margin is the lead."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 2,
+    "title": "Vague Memo",
+    "sentence": "The chief revised the memo because it had glossed a clear risk point.",
+    "targetText": "it",
+    "options": ["the chief", "the memo", "the risk"],
+    "answer": "the memo",
+    "candidates": [
+      { "token": "memo", "weight": 0.58, "note": "The memo glossed the risk." },
+      { "token": "risk", "weight": 0.24, "note": "Risk is what got glossed." },
+      { "token": "chief", "weight": 0.18, "note": "The chief did the edit." }
+    ],
+    "clue": "had glossed a clear risk point",
+    "insight": "The unclear text is the memo."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 2,
+    "title": "Late Lab",
+    "sentence": "The class redid the lab since it had failed to gather clean data.",
+    "targetText": "it",
+    "options": ["the class", "the lab", "the data"],
+    "answer": "the lab",
+    "candidates": [
+      { "token": "lab", "weight": 0.58, "note": "The lab failed to gather data." },
+      { "token": "data", "weight": 0.24, "note": "Data is the goal." },
+      { "token": "class", "weight": 0.18, "note": "The class redid it." }
+    ],
+    "clue": "had failed to gather clean data",
+    "insight": "The failed effort is the lab."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 2,
+    "title": "Dim Sales",
+    "sentence": "The chain shut the kiosk once sales said that it had bled cash for months.",
+    "targetText": "it",
+    "options": ["the chain", "the kiosk", "the months"],
+    "answer": "the kiosk",
+    "candidates": [
+      { "token": "kiosk", "weight": 0.58, "note": "The kiosk bled cash." },
+      { "token": "months", "weight": 0.24, "note": "Months are the time frame." },
+      { "token": "chain", "weight": 0.18, "note": "The chain made the call." }
+    ],
+    "clue": "had bled cash for months",
+    "insight": "The losing site is the kiosk."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 2,
+    "title": "Wrong Lane",
+    "sentence": "The driver merged across the lane once it had cleared of slow trucks.",
+    "targetText": "it",
+    "options": ["the driver", "the lane", "the trucks"],
+    "answer": "the lane",
+    "candidates": [
+      { "token": "lane", "weight": 0.58, "note": "The lane cleared." },
+      { "token": "trucks", "weight": 0.24, "note": "Trucks are what blocked it." },
+      { "token": "driver", "weight": 0.18, "note": "The driver did the merge." }
+    ],
+    "clue": "had cleared of slow trucks",
+    "insight": "The clearing strip is the lane."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 3,
+    "title": "Frail Demo",
+    "sentence": "The judges paused the demo because it had crashed twice during the live run.",
+    "targetText": "it",
+    "options": ["the judges", "the demo", "the run"],
+    "answer": "the demo",
+    "candidates": [
+      { "token": "demo", "weight": 0.56, "note": "The demo crashed twice." },
+      { "token": "run", "weight": 0.24, "note": "The run is the trial." },
+      { "token": "judges", "weight": 0.2, "note": "Judges paused things." }
+    ],
+    "clue": "had crashed twice during the live run",
+    "insight": "The crashing item is the demo."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 3,
+    "title": "Soft Lock",
+    "sentence": "The bank reset the token once support saw that it had locked the user out.",
+    "targetText": "it",
+    "options": ["the bank", "the token", "the user"],
+    "answer": "the token",
+    "candidates": [
+      { "token": "token", "weight": 0.56, "note": "The token did the locking." },
+      { "token": "user", "weight": 0.24, "note": "The user is who got locked." },
+      { "token": "support", "weight": 0.2, "note": "Support saw the issue." }
+    ],
+    "clue": "had locked the user out",
+    "insight": "The locking item is the token."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 3,
+    "title": "Mute Mic",
+    "sentence": "The host swapped the mic when guests said that it had muffled their words.",
+    "targetText": "it",
+    "options": ["the host", "the mic", "the guests"],
+    "answer": "the mic",
+    "candidates": [
+      { "token": "mic", "weight": 0.56, "note": "The mic muffled words." },
+      { "token": "guests", "weight": 0.24, "note": "Guests gave feedback." },
+      { "token": "host", "weight": 0.2, "note": "The host did the swap." }
+    ],
+    "clue": "had muffled their words",
+    "insight": "The muffling device is the mic."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 3,
+    "title": "Old Cache",
+    "sentence": "The team purged the cache after users showed that it had served stale pages.",
+    "targetText": "it",
+    "options": ["the team", "the cache", "the pages"],
+    "answer": "the cache",
+    "candidates": [
+      { "token": "cache", "weight": 0.56, "note": "The cache served stale pages." },
+      { "token": "pages", "weight": 0.24, "note": "Pages are what was served." },
+      { "token": "team", "weight": 0.2, "note": "The team did the purge." }
+    ],
+    "clue": "had served stale pages",
+    "insight": "The serving layer is the cache."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 3,
+    "title": "Lost Drone",
+    "sentence": "The pilot grounded the drone since it had lost its link near the ridge.",
+    "targetText": "it",
+    "options": ["the pilot", "the drone", "the ridge"],
+    "answer": "the drone",
+    "candidates": [
+      { "token": "drone", "weight": 0.56, "note": "The drone lost its link." },
+      { "token": "ridge", "weight": 0.24, "note": "Ridge is the place." },
+      { "token": "pilot", "weight": 0.2, "note": "The pilot grounded it." }
+    ],
+    "clue": "had lost its link near the ridge",
+    "insight": "The losing aircraft is the drone."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 3,
+    "title": "Off Beat",
+    "sentence": "The leader stopped the band once players felt that it had drifted off beat.",
+    "targetText": "it",
+    "options": ["the leader", "the band", "the beat"],
+    "answer": "the band",
+    "candidates": [
+      { "token": "band", "weight": 0.56, "note": "The band drifted off beat." },
+      { "token": "beat", "weight": 0.24, "note": "Beat is the standard." },
+      { "token": "players", "weight": 0.2, "note": "Players gave feedback." }
+    ],
+    "clue": "had drifted off beat",
+    "insight": "The drifting group is the band."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 3,
+    "title": "Bare Trial",
+    "sentence": "The chief ended the trial because it had failed to recruit enough subjects.",
+    "targetText": "it",
+    "options": ["the chief", "the trial", "the subjects"],
+    "answer": "the trial",
+    "candidates": [
+      { "token": "trial", "weight": 0.56, "note": "The trial failed to recruit." },
+      { "token": "subjects", "weight": 0.24, "note": "Subjects are the goal." },
+      { "token": "chief", "weight": 0.2, "note": "The chief ended things." }
+    ],
+    "clue": "had failed to recruit enough subjects",
+    "insight": "The failing study is the trial."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 3,
+    "title": "Late Train",
+    "sentence": "The crew skipped the route once dispatch said that it had jammed every line.",
+    "targetText": "it",
+    "options": ["the crew", "the route", "dispatch"],
+    "answer": "the route",
+    "candidates": [
+      { "token": "route", "weight": 0.56, "note": "The route jammed lines." },
+      { "token": "dispatch", "weight": 0.24, "note": "Dispatch gave the call." },
+      { "token": "crew", "weight": 0.2, "note": "The crew acted on it." }
+    ],
+    "clue": "had jammed every line",
+    "insight": "The jamming path is the route."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 3,
+    "title": "Soft Plan",
+    "sentence": "The chief flagged the plan once peers found that it had glossed real risks.",
+    "targetText": "it",
+    "options": ["the chief", "the plan", "the peers"],
+    "answer": "the plan",
+    "candidates": [
+      { "token": "plan", "weight": 0.56, "note": "The plan glossed risks." },
+      { "token": "peers", "weight": 0.24, "note": "Peers gave the read." },
+      { "token": "risks", "weight": 0.2, "note": "Risks are what got glossed." }
+    ],
+    "clue": "had glossed real risks",
+    "insight": "The risky paper is the plan."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 3,
+    "title": "Stale Theme",
+    "sentence": "The studio retired the theme since fans felt that it had grown old fast.",
+    "targetText": "it",
+    "options": ["the studio", "the theme", "the fans"],
+    "answer": "the theme",
+    "candidates": [
+      { "token": "theme", "weight": 0.56, "note": "The theme grew old." },
+      { "token": "fans", "weight": 0.24, "note": "Fans gave feedback." },
+      { "token": "studio", "weight": 0.2, "note": "The studio retired it." }
+    ],
+    "clue": "had grown old fast",
+    "insight": "The aging asset is the theme."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 4,
+    "title": "Soft Demand",
+    "sentence": "The seller cut the price even after he saw that it had stalled buyers earlier.",
+    "targetText": "it",
+    "options": ["the seller", "the price", "the buyers"],
+    "answer": "the price",
+    "candidates": [
+      { "token": "price", "weight": 0.54, "note": "The price stalled buyers." },
+      { "token": "buyers", "weight": 0.26, "note": "Buyers were the audience." },
+      { "token": "seller", "weight": 0.2, "note": "The seller cut things." }
+    ],
+    "clue": "had stalled buyers earlier",
+    "insight": "The stalling lever is the price."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 4,
+    "title": "Bent Curve",
+    "sentence": "The team redrew the curve once peers noted that it had ignored a key trend.",
+    "targetText": "it",
+    "options": ["the team", "the curve", "the trend"],
+    "answer": "the curve",
+    "candidates": [
+      { "token": "curve", "weight": 0.54, "note": "The curve ignored the trend." },
+      { "token": "trend", "weight": 0.26, "note": "Trend is what was missed." },
+      { "token": "peers", "weight": 0.2, "note": "Peers gave the note." }
+    ],
+    "clue": "had ignored a key trend",
+    "insight": "The flawed plot is the curve."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 4,
+    "title": "Lost Frame",
+    "sentence": "The artist redid the shot since the crew showed that it had blurred at the edge.",
+    "targetText": "it",
+    "options": ["the artist", "the shot", "the crew"],
+    "answer": "the shot",
+    "candidates": [
+      { "token": "shot", "weight": 0.54, "note": "The shot blurred." },
+      { "token": "edge", "weight": 0.26, "note": "Edge is where it blurred." },
+      { "token": "crew", "weight": 0.2, "note": "Crew gave the read." }
+    ],
+    "clue": "had blurred at the edge",
+    "insight": "The blurry image is the shot."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 4,
+    "title": "Loose Beam",
+    "sentence": "The builder swapped the brace once a check showed that it had bent under stress.",
+    "targetText": "it",
+    "options": ["the builder", "the brace", "the check"],
+    "answer": "the brace",
+    "candidates": [
+      { "token": "brace", "weight": 0.54, "note": "The brace bent under stress." },
+      { "token": "stress", "weight": 0.26, "note": "Stress is the cause." },
+      { "token": "check", "weight": 0.2, "note": "The check found it." }
+    ],
+    "clue": "had bent under stress",
+    "insight": "The bent part is the brace."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 4,
+    "title": "Slow Court",
+    "sentence": "The judge paused the case after counsel saw that it had grown thin on facts.",
+    "targetText": "it",
+    "options": ["the judge", "the case", "counsel"],
+    "answer": "the case",
+    "candidates": [
+      { "token": "case", "weight": 0.54, "note": "The case grew thin." },
+      { "token": "facts", "weight": 0.26, "note": "Facts are the support." },
+      { "token": "counsel", "weight": 0.2, "note": "Counsel saw it." }
+    ],
+    "clue": "had grown thin on facts",
+    "insight": "The weak matter is the case."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 4,
+    "title": "Mute Bell",
+    "sentence": "The shop swapped the bell once a tech said that it had stopped on cold days.",
+    "targetText": "it",
+    "options": ["the shop", "the bell", "the tech"],
+    "answer": "the bell",
+    "candidates": [
+      { "token": "bell", "weight": 0.54, "note": "The bell stopped." },
+      { "token": "days", "weight": 0.26, "note": "Days are the trigger time." },
+      { "token": "tech", "weight": 0.2, "note": "The tech reported it." }
+    ],
+    "clue": "had stopped on cold days",
+    "insight": "The failing device is the bell."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 4,
+    "title": "Off Map",
+    "sentence": "The guide redid the path once hikers said that it had skirted a steep drop.",
+    "targetText": "it",
+    "options": ["the guide", "the path", "hikers"],
+    "answer": "the path",
+    "candidates": [
+      { "token": "path", "weight": 0.54, "note": "The path skirted the drop." },
+      { "token": "drop", "weight": 0.26, "note": "Drop is the danger." },
+      { "token": "hikers", "weight": 0.2, "note": "Hikers gave the warning." }
+    ],
+    "clue": "had skirted a steep drop",
+    "insight": "The risky route is the path."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 4,
+    "title": "Faded Brand",
+    "sentence": "The owner redid the logo once a study showed that it had lost its edge.",
+    "targetText": "it",
+    "options": ["the owner", "the logo", "the study"],
+    "answer": "the logo",
+    "candidates": [
+      { "token": "logo", "weight": 0.54, "note": "The logo lost its edge." },
+      { "token": "study", "weight": 0.26, "note": "The study found it." },
+      { "token": "owner", "weight": 0.2, "note": "The owner did the redo." }
+    ],
+    "clue": "had lost its edge",
+    "insight": "The dulled mark is the logo."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 4,
+    "title": "Late Jet",
+    "sentence": "The crew held the flight after radar saw that it had drifted off course.",
+    "targetText": "it",
+    "options": ["the crew", "the flight", "the radar"],
+    "answer": "the flight",
+    "candidates": [
+      { "token": "flight", "weight": 0.54, "note": "The flight drifted." },
+      { "token": "course", "weight": 0.26, "note": "Course is the path." },
+      { "token": "radar", "weight": 0.2, "note": "Radar saw the drift." }
+    ],
+    "clue": "had drifted off course",
+    "insight": "The drifting trip is the flight."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 4,
+    "title": "Soft Pitch",
+    "sentence": "The board passed on the deal once a partner said that it had felt thin.",
+    "targetText": "it",
+    "options": ["the board", "the deal", "the partner"],
+    "answer": "the deal",
+    "candidates": [
+      { "token": "deal", "weight": 0.54, "note": "The deal felt thin." },
+      { "token": "partner", "weight": 0.26, "note": "The partner gave the call." },
+      { "token": "board", "weight": 0.2, "note": "The board passed." }
+    ],
+    "clue": "had felt thin",
+    "insight": "The thin offer is the deal."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 5,
+    "title": "Fragile Truce",
+    "sentence": "The aides briefed the chair on the truce once envoys hinted that it had cracked.",
+    "targetText": "it",
+    "options": ["the chair", "the truce", "the envoys"],
+    "answer": "the truce",
+    "candidates": [
+      { "token": "truce", "weight": 0.52, "note": "The truce cracked." },
+      { "token": "envoys", "weight": 0.28, "note": "Envoys hinted at it." },
+      { "token": "aides", "weight": 0.2, "note": "Aides briefed the chair." }
+    ],
+    "clue": "had cracked",
+    "insight": "The cracking pact is the truce."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 5,
+    "title": "Stale Trial",
+    "sentence": "The team retired the trial once a board found that it had drifted from the plan.",
+    "targetText": "it",
+    "options": ["the team", "the trial", "the board"],
+    "answer": "the trial",
+    "candidates": [
+      { "token": "trial", "weight": 0.52, "note": "The trial drifted." },
+      { "token": "board", "weight": 0.28, "note": "Board flagged the drift." },
+      { "token": "plan", "weight": 0.2, "note": "Plan is the anchor." }
+    ],
+    "clue": "had drifted from the plan",
+    "insight": "The drifting study is the trial."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 5,
+    "title": "Loose Bond",
+    "sentence": "The bank shed the bond once traders saw that it had slid below par fast.",
+    "targetText": "it",
+    "options": ["the bank", "the bond", "traders"],
+    "answer": "the bond",
+    "candidates": [
+      { "token": "bond", "weight": 0.52, "note": "The bond slid below par." },
+      { "token": "traders", "weight": 0.28, "note": "Traders saw the slide." },
+      { "token": "bank", "weight": 0.2, "note": "The bank shed it." }
+    ],
+    "clue": "had slid below par fast",
+    "insight": "The slipping note is the bond."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 5,
+    "title": "Bare Lead",
+    "sentence": "The agent dropped the lead since a probe noted that it had no firm proof.",
+    "targetText": "it",
+    "options": ["the agent", "the lead", "the probe"],
+    "answer": "the lead",
+    "candidates": [
+      { "token": "lead", "weight": 0.52, "note": "The lead lacked proof." },
+      { "token": "proof", "weight": 0.28, "note": "Proof is the missing piece." },
+      { "token": "probe", "weight": 0.2, "note": "The probe noted the lack." }
+    ],
+    "clue": "had no firm proof",
+    "insight": "The thin tip is the lead."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 5,
+    "title": "Flat Drive",
+    "sentence": "The lab cloned the drive after techs saw that it had begun to skip key blocks.",
+    "targetText": "it",
+    "options": ["the lab", "the drive", "the techs"],
+    "answer": "the drive",
+    "candidates": [
+      { "token": "drive", "weight": 0.52, "note": "The drive skipped blocks." },
+      { "token": "blocks", "weight": 0.28, "note": "Blocks are the data units." },
+      { "token": "techs", "weight": 0.2, "note": "Techs saw the skip." }
+    ],
+    "clue": "had begun to skip key blocks",
+    "insight": "The failing disk is the drive."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 5,
+    "title": "Worn Patch",
+    "sentence": "The team yanked the patch once logs showed that it had broken a quiet path.",
+    "targetText": "it",
+    "options": ["the team", "the patch", "the logs"],
+    "answer": "the patch",
+    "candidates": [
+      { "token": "patch", "weight": 0.52, "note": "The patch broke a path." },
+      { "token": "path", "weight": 0.28, "note": "Path is what got broken." },
+      { "token": "logs", "weight": 0.2, "note": "Logs showed the break." }
+    ],
+    "clue": "had broken a quiet path",
+    "insight": "The breaking change is the patch."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 5,
+    "title": "Soft Score",
+    "sentence": "The judge tossed the score once a check found that it had failed a clear rule.",
+    "targetText": "it",
+    "options": ["the judge", "the score", "the check"],
+    "answer": "the score",
+    "candidates": [
+      { "token": "score", "weight": 0.52, "note": "The score failed a rule." },
+      { "token": "rule", "weight": 0.28, "note": "Rule is the standard." },
+      { "token": "check", "weight": 0.2, "note": "The check caught it." }
+    ],
+    "clue": "had failed a clear rule",
+    "insight": "The failing mark is the score."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 5,
+    "title": "Mute Pact",
+    "sentence": "The chief shelved the pact once aides hinted that it had hit a quiet snag.",
+    "targetText": "it",
+    "options": ["the chief", "the pact", "the aides"],
+    "answer": "the pact",
+    "candidates": [
+      { "token": "pact", "weight": 0.52, "note": "The pact hit a snag." },
+      { "token": "snag", "weight": 0.28, "note": "Snag is the issue." },
+      { "token": "aides", "weight": 0.2, "note": "Aides hinted at it." }
+    ],
+    "clue": "had hit a quiet snag",
+    "insight": "The stalled deal is the pact."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 5,
+    "title": "Bent Beam",
+    "sentence": "The crew braced the beam once a check found that it had slipped past spec.",
+    "targetText": "it",
+    "options": ["the crew", "the beam", "the check"],
+    "answer": "the beam",
+    "candidates": [
+      { "token": "beam", "weight": 0.52, "note": "The beam slipped past spec." },
+      { "token": "spec", "weight": 0.28, "note": "Spec is the limit." },
+      { "token": "check", "weight": 0.2, "note": "The check found it." }
+    ],
+    "clue": "had slipped past spec",
+    "insight": "The off-spec part is the beam."
+  },
+  {
+    "level": "advanced",
+    "difficulty": 5,
+    "title": "Frail Lead",
+    "sentence": "The board froze the lead once vetters saw that it had no firm trace at all.",
+    "targetText": "it",
+    "options": ["the board", "the lead", "vetters"],
+    "answer": "the lead",
+    "candidates": [
+      { "token": "lead", "weight": 0.52, "note": "The lead had no trace." },
+      { "token": "trace", "weight": 0.28, "note": "Trace is the missing piece." },
+      { "token": "vetters", "weight": 0.2, "note": "Vetters saw the gap." }
+    ],
+    "clue": "had no firm trace at all",
+    "insight": "The traceless tip is the lead."
+  }
+]

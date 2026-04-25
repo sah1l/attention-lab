@@ -1,0 +1,27 @@
+{
+  "name": "attention-lab",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "generate-corpus": "node --env-file-if-exists=.env --env-file-if-exists=.env.local --import tsx scripts/generateCorpus.ts"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "openai": "^6.34.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.39.0",
+    "eslint-config-next": "^16.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.0"
+  }
+}

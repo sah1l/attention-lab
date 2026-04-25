@@ -1,0 +1,6522 @@
+{
+  "generatedAt": "2026-04-25T08:34:07.591Z",
+  "count": 120,
+  "challenges": [
+    {
+      "title": "Hot Soup",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence": "Lila blew on the soup because it was too hot.",
+      "tokens": [
+        "Lila",
+        "blew",
+        "on",
+        "the",
+        "soup",
+        "because",
+        "it",
+        "was",
+        "too",
+        "hot"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Lila",
+        "the soup",
+        "the spoon"
+      ],
+      "answer": "the soup",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "soup",
+          "index": 4,
+          "weight": 0.78,
+          "note": "Soup is the thing that can be hot."
+        },
+        {
+          "token": "Lila",
+          "index": 0,
+          "weight": 0.14,
+          "note": "Lila is the actor doing the blowing."
+        },
+        {
+          "token": "blew",
+          "index": 1,
+          "weight": 0.08,
+          "note": "Blowing is the action, not the referent."
+        }
+      ],
+      "clue": "too hot",
+      "insight": "The thing that was too hot is the soup."
+    },
+    {
+      "title": "Lost Sock",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence": "Ben looked under the bed for the sock but it was gone.",
+      "tokens": [
+        "Ben",
+        "looked",
+        "under",
+        "the",
+        "bed",
+        "for",
+        "the",
+        "sock",
+        "but",
+        "it",
+        "was",
+        "gone"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Ben",
+        "the sock",
+        "the bed"
+      ],
+      "answer": "the sock",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "sock",
+          "index": 7,
+          "weight": 0.78,
+          "note": "The sock is what was missing."
+        },
+        {
+          "token": "bed",
+          "index": 4,
+          "weight": 0.13,
+          "note": "The bed is where Ben looked."
+        },
+        {
+          "token": "Ben",
+          "index": 0,
+          "weight": 0.09,
+          "note": "Ben is the searcher."
+        }
+      ],
+      "clue": "was gone",
+      "insight": "The missing item is the sock."
+    },
+    {
+      "title": "Sweet Mango",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence": "Asha ate the mango because it tasted very sweet.",
+      "tokens": [
+        "Asha",
+        "ate",
+        "the",
+        "mango",
+        "because",
+        "it",
+        "tasted",
+        "very",
+        "sweet"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Asha",
+        "the mango",
+        "the kitchen"
+      ],
+      "answer": "the mango",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "mango",
+          "index": 3,
+          "weight": 0.8,
+          "note": "The mango is the food being tasted."
+        },
+        {
+          "token": "Asha",
+          "index": 0,
+          "weight": 0.12,
+          "note": "Asha is the eater."
+        },
+        {
+          "token": "ate",
+          "index": 1,
+          "weight": 0.08,
+          "note": "The eating action sets the clue."
+        }
+      ],
+      "clue": "tasted very sweet",
+      "insight": "The sweet thing being eaten is the mango."
+    },
+    {
+      "title": "Rain Stops",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence": "We waited under the tree until the rain stopped because it was heavy.",
+      "tokens": [
+        "We",
+        "waited",
+        "under",
+        "the",
+        "tree",
+        "until",
+        "the",
+        "rain",
+        "stopped",
+        "because",
+        "it",
+        "was",
+        "heavy"
+      ],
+      "target": {
+        "text": "it",
+        "index": 10
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the tree",
+        "the rain",
+        "the ground"
+      ],
+      "answer": "the rain",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "rain",
+          "index": 7,
+          "weight": 0.78,
+          "note": "Rain is what can be heavy and stop."
+        },
+        {
+          "token": "tree",
+          "index": 4,
+          "weight": 0.13,
+          "note": "The tree is just the shelter."
+        },
+        {
+          "token": "waited",
+          "index": 1,
+          "weight": 0.09,
+          "note": "Waiting is the action."
+        }
+      ],
+      "clue": "was heavy",
+      "insight": "Heavy rain matches the clue and the action of waiting it out."
+    },
+    {
+      "title": "Tired Dog",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence": "The dog napped on the rug because it was tired.",
+      "tokens": [
+        "The",
+        "dog",
+        "napped",
+        "on",
+        "the",
+        "rug",
+        "because",
+        "it",
+        "was",
+        "tired"
+      ],
+      "target": {
+        "text": "it",
+        "index": 7
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the dog",
+        "the rug",
+        "the floor"
+      ],
+      "answer": "the dog",
+      "answerIndex": 0,
+      "candidates": [
+        {
+          "token": "dog",
+          "index": 1,
+          "weight": 0.79,
+          "note": "The dog is the one that gets tired and naps."
+        },
+        {
+          "token": "rug",
+          "index": 5,
+          "weight": 0.13,
+          "note": "The rug is just where the napping happens."
+        },
+        {
+          "token": "napped",
+          "index": 2,
+          "weight": 0.08,
+          "note": "Napping is the action."
+        }
+      ],
+      "clue": "was tired",
+      "insight": "The napper is the dog, so 'it' points to the dog."
+    },
+    {
+      "title": "Light Bulb",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence": "Dad changed the bulb because it had burned out.",
+      "tokens": [
+        "Dad",
+        "changed",
+        "the",
+        "bulb",
+        "because",
+        "it",
+        "had",
+        "burned",
+        "out"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Dad",
+        "the bulb",
+        "the lamp"
+      ],
+      "answer": "the bulb",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "bulb",
+          "index": 3,
+          "weight": 0.8,
+          "note": "The bulb is what burns out."
+        },
+        {
+          "token": "Dad",
+          "index": 0,
+          "weight": 0.12,
+          "note": "Dad is the one doing the change."
+        },
+        {
+          "token": "changed",
+          "index": 1,
+          "weight": 0.08,
+          "note": "The change is the action."
+        }
+      ],
+      "clue": "burned out",
+      "insight": "Bulbs burn out, so 'it' points to the bulb."
+    },
+    {
+      "title": "Paper Plane",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence": "Sam tossed the plane and it flew across the room.",
+      "tokens": [
+        "Sam",
+        "tossed",
+        "the",
+        "plane",
+        "and",
+        "it",
+        "flew",
+        "across",
+        "the",
+        "room"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Sam",
+        "the plane",
+        "the room"
+      ],
+      "answer": "the plane",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "plane",
+          "index": 3,
+          "weight": 0.79,
+          "note": "The plane is what flew."
+        },
+        {
+          "token": "Sam",
+          "index": 0,
+          "weight": 0.13,
+          "note": "Sam is the thrower."
+        },
+        {
+          "token": "tossed",
+          "index": 1,
+          "weight": 0.08,
+          "note": "Tossing is the action."
+        }
+      ],
+      "clue": "flew across the room",
+      "insight": "Planes fly, so 'it' refers to the plane."
+    },
+    {
+      "title": "Cold Milk",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence": "Mia drank the milk because it was nice and cold.",
+      "tokens": [
+        "Mia",
+        "drank",
+        "the",
+        "milk",
+        "because",
+        "it",
+        "was",
+        "nice",
+        "and",
+        "cold"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Mia",
+        "the milk",
+        "the glass"
+      ],
+      "answer": "the milk",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "milk",
+          "index": 3,
+          "weight": 0.79,
+          "note": "The milk is what was cold and got drunk."
+        },
+        {
+          "token": "Mia",
+          "index": 0,
+          "weight": 0.13,
+          "note": "Mia is the drinker."
+        },
+        {
+          "token": "drank",
+          "index": 1,
+          "weight": 0.08,
+          "note": "Drinking is the action."
+        }
+      ],
+      "clue": "was nice and cold",
+      "insight": "The cold drinkable item is the milk."
+    },
+    {
+      "title": "Old Book",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence": "Tom kept the book because it had his name inside.",
+      "tokens": [
+        "Tom",
+        "kept",
+        "the",
+        "book",
+        "because",
+        "it",
+        "had",
+        "his",
+        "name",
+        "inside"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Tom",
+        "the book",
+        "his name"
+      ],
+      "answer": "the book",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "book",
+          "index": 3,
+          "weight": 0.78,
+          "note": "The book holds the name."
+        },
+        {
+          "token": "Tom",
+          "index": 0,
+          "weight": 0.13,
+          "note": "Tom is the keeper."
+        },
+        {
+          "token": "name",
+          "index": 8,
+          "weight": 0.09,
+          "note": "Name is what is inside the book."
+        }
+      ],
+      "clue": "had his name inside",
+      "insight": "The thing with a name inside is the book."
+    },
+    {
+      "title": "Loud Bell",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence": "Kira covered her ears when the bell rang because it was loud.",
+      "tokens": [
+        "Kira",
+        "covered",
+        "her",
+        "ears",
+        "when",
+        "the",
+        "bell",
+        "rang",
+        "because",
+        "it",
+        "was",
+        "loud"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Kira",
+        "the bell",
+        "her ears"
+      ],
+      "answer": "the bell",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "bell",
+          "index": 6,
+          "weight": 0.78,
+          "note": "The bell rang and was loud."
+        },
+        {
+          "token": "Kira",
+          "index": 0,
+          "weight": 0.13,
+          "note": "Kira reacted to the sound."
+        },
+        {
+          "token": "ears",
+          "index": 3,
+          "weight": 0.09,
+          "note": "Ears were covered, not loud."
+        }
+      ],
+      "clue": "was loud",
+      "insight": "Bells ring loudly; 'it' points to the bell."
+    },
+    {
+      "title": "Wet Dog",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence": "Emma dried the dog after it splashed in the pond.",
+      "tokens": [
+        "Emma",
+        "dried",
+        "the",
+        "dog",
+        "after",
+        "it",
+        "splashed",
+        "in",
+        "the",
+        "pond"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Emma",
+        "the dog",
+        "the pond"
+      ],
+      "answer": "the dog",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "dog",
+          "index": 3,
+          "weight": 0.74,
+          "note": "The dog splashed and got wet."
+        },
+        {
+          "token": "pond",
+          "index": 9,
+          "weight": 0.16,
+          "note": "The pond is where, not who."
+        },
+        {
+          "token": "Emma",
+          "index": 0,
+          "weight": 0.1,
+          "note": "Emma did the drying."
+        }
+      ],
+      "clue": "splashed in the pond",
+      "insight": "The splasher is the dog."
+    },
+    {
+      "title": "Tasty Pizza",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence": "Raj shared the pizza because it was much too big for him.",
+      "tokens": [
+        "Raj",
+        "shared",
+        "the",
+        "pizza",
+        "because",
+        "it",
+        "was",
+        "much",
+        "too",
+        "big",
+        "for",
+        "him"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Raj",
+        "the pizza",
+        "the box"
+      ],
+      "answer": "the pizza",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "pizza",
+          "index": 3,
+          "weight": 0.74,
+          "note": "The pizza was too big."
+        },
+        {
+          "token": "Raj",
+          "index": 0,
+          "weight": 0.14,
+          "note": "Raj is the sharer."
+        },
+        {
+          "token": "shared",
+          "index": 1,
+          "weight": 0.12,
+          "note": "Sharing is the action."
+        }
+      ],
+      "clue": "too big for him",
+      "insight": "The big food being shared is the pizza."
+    },
+    {
+      "title": "Open Door",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence": "Nina pushed the door so that it would not slam shut.",
+      "tokens": [
+        "Nina",
+        "pushed",
+        "the",
+        "door",
+        "so",
+        "that",
+        "it",
+        "would",
+        "not",
+        "slam",
+        "shut"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Nina",
+        "the door",
+        "the room"
+      ],
+      "answer": "the door",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "door",
+          "index": 3,
+          "weight": 0.75,
+          "note": "Doors can slam shut."
+        },
+        {
+          "token": "Nina",
+          "index": 0,
+          "weight": 0.14,
+          "note": "Nina pushes, not slams."
+        },
+        {
+          "token": "pushed",
+          "index": 1,
+          "weight": 0.11,
+          "note": "The push is the action."
+        }
+      ],
+      "clue": "slam shut",
+      "insight": "The thing that might slam shut is the door."
+    },
+    {
+      "title": "New Phone",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence": "Ravi charged the phone because it had a low battery.",
+      "tokens": [
+        "Ravi",
+        "charged",
+        "the",
+        "phone",
+        "because",
+        "it",
+        "had",
+        "a",
+        "low",
+        "battery"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Ravi",
+        "the phone",
+        "the cable"
+      ],
+      "answer": "the phone",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "phone",
+          "index": 3,
+          "weight": 0.74,
+          "note": "The phone has the battery."
+        },
+        {
+          "token": "battery",
+          "index": 9,
+          "weight": 0.16,
+          "note": "Battery is the part, not the device."
+        },
+        {
+          "token": "Ravi",
+          "index": 0,
+          "weight": 0.1,
+          "note": "Ravi is the charger."
+        }
+      ],
+      "clue": "had a low battery",
+      "insight": "The low-battery item is the phone."
+    },
+    {
+      "title": "Soft Cat",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence": "Anya pet the cat while it sat on her lap.",
+      "tokens": [
+        "Anya",
+        "pet",
+        "the",
+        "cat",
+        "while",
+        "it",
+        "sat",
+        "on",
+        "her",
+        "lap"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Anya",
+        "the cat",
+        "her lap"
+      ],
+      "answer": "the cat",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "cat",
+          "index": 3,
+          "weight": 0.76,
+          "note": "The cat sat on her lap."
+        },
+        {
+          "token": "lap",
+          "index": 9,
+          "weight": 0.14,
+          "note": "Lap is the place."
+        },
+        {
+          "token": "Anya",
+          "index": 0,
+          "weight": 0.1,
+          "note": "Anya did the petting."
+        }
+      ],
+      "clue": "sat on her lap",
+      "insight": "The sitter is the cat."
+    },
+    {
+      "title": "Slow Bus",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence": "We caught the bus even though it arrived very late at our stop.",
+      "tokens": [
+        "We",
+        "caught",
+        "the",
+        "bus",
+        "even",
+        "though",
+        "it",
+        "arrived",
+        "very",
+        "late",
+        "at",
+        "our",
+        "stop"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the bus",
+        "the stop",
+        "the driver"
+      ],
+      "answer": "the bus",
+      "answerIndex": 0,
+      "candidates": [
+        {
+          "token": "bus",
+          "index": 3,
+          "weight": 0.76,
+          "note": "The bus arrived late."
+        },
+        {
+          "token": "stop",
+          "index": 12,
+          "weight": 0.13,
+          "note": "Stop is the place."
+        },
+        {
+          "token": "caught",
+          "index": 1,
+          "weight": 0.11,
+          "note": "Catching is the action."
+        }
+      ],
+      "clue": "arrived very late",
+      "insight": "The arriving thing is the bus."
+    },
+    {
+      "title": "Clean Plate",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence": "Dad washed the plate after it slipped into the sauce.",
+      "tokens": [
+        "Dad",
+        "washed",
+        "the",
+        "plate",
+        "after",
+        "it",
+        "slipped",
+        "into",
+        "the",
+        "sauce"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Dad",
+        "the plate",
+        "the sauce"
+      ],
+      "answer": "the plate",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "plate",
+          "index": 3,
+          "weight": 0.74,
+          "note": "The plate slipped."
+        },
+        {
+          "token": "sauce",
+          "index": 9,
+          "weight": 0.14,
+          "note": "Sauce is where it landed."
+        },
+        {
+          "token": "Dad",
+          "index": 0,
+          "weight": 0.12,
+          "note": "Dad is the washer."
+        }
+      ],
+      "clue": "slipped into the sauce",
+      "insight": "The slipping object is the plate."
+    },
+    {
+      "title": "Tall Plant",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence": "Mom watered the plant so it would not wilt today.",
+      "tokens": [
+        "Mom",
+        "watered",
+        "the",
+        "plant",
+        "so",
+        "it",
+        "would",
+        "not",
+        "wilt",
+        "today"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Mom",
+        "the plant",
+        "the pot"
+      ],
+      "answer": "the plant",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "plant",
+          "index": 3,
+          "weight": 0.76,
+          "note": "The plant could wilt."
+        },
+        {
+          "token": "Mom",
+          "index": 0,
+          "weight": 0.14,
+          "note": "Mom waters it."
+        },
+        {
+          "token": "watered",
+          "index": 1,
+          "weight": 0.1,
+          "note": "Watering is the action."
+        }
+      ],
+      "clue": "would not wilt",
+      "insight": "Wilting describes the plant."
+    },
+    {
+      "title": "Quiet Baby",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence": "Kavi rocked the baby until it fell asleep.",
+      "tokens": [
+        "Kavi",
+        "rocked",
+        "the",
+        "baby",
+        "until",
+        "it",
+        "fell",
+        "asleep"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Kavi",
+        "the baby",
+        "the chair"
+      ],
+      "answer": "the baby",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "baby",
+          "index": 3,
+          "weight": 0.78,
+          "note": "The baby fell asleep."
+        },
+        {
+          "token": "Kavi",
+          "index": 0,
+          "weight": 0.13,
+          "note": "Kavi did the rocking."
+        },
+        {
+          "token": "rocked",
+          "index": 1,
+          "weight": 0.09,
+          "note": "Rocking is the action."
+        }
+      ],
+      "clue": "fell asleep",
+      "insight": "Falling asleep describes the baby."
+    },
+    {
+      "title": "Bright Kite",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence": "Riya let go of the kite and it flew far away.",
+      "tokens": [
+        "Riya",
+        "let",
+        "go",
+        "of",
+        "the",
+        "kite",
+        "and",
+        "it",
+        "flew",
+        "far",
+        "away"
+      ],
+      "target": {
+        "text": "it",
+        "index": 7
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Riya",
+        "the kite",
+        "the wind"
+      ],
+      "answer": "the kite",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "kite",
+          "index": 5,
+          "weight": 0.78,
+          "note": "Kites fly when let go."
+        },
+        {
+          "token": "Riya",
+          "index": 0,
+          "weight": 0.13,
+          "note": "Riya is the actor."
+        },
+        {
+          "token": "flew",
+          "index": 8,
+          "weight": 0.09,
+          "note": "Flying is the action."
+        }
+      ],
+      "clue": "flew far away",
+      "insight": "The flier is the kite."
+    },
+    {
+      "title": "Stuck Lid",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence": "Maya pulled the lid off the jar but it would not budge.",
+      "tokens": [
+        "Maya",
+        "pulled",
+        "the",
+        "lid",
+        "off",
+        "the",
+        "jar",
+        "but",
+        "it",
+        "would",
+        "not",
+        "budge"
+      ],
+      "target": {
+        "text": "it",
+        "index": 8
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Maya",
+        "the lid",
+        "the jar"
+      ],
+      "answer": "the lid",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "lid",
+          "index": 3,
+          "weight": 0.72,
+          "note": "The lid was the stuck part."
+        },
+        {
+          "token": "jar",
+          "index": 6,
+          "weight": 0.16,
+          "note": "Jar is the rest of the object."
+        },
+        {
+          "token": "pulled",
+          "index": 1,
+          "weight": 0.12,
+          "note": "Pulling is the action."
+        }
+      ],
+      "clue": "would not budge",
+      "insight": "The stuck part is the lid."
+    },
+    {
+      "title": "Bumpy Road",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence": "The car rattled on the road because it was full of holes.",
+      "tokens": [
+        "The",
+        "car",
+        "rattled",
+        "on",
+        "the",
+        "road",
+        "because",
+        "it",
+        "was",
+        "full",
+        "of",
+        "holes"
+      ],
+      "target": {
+        "text": "it",
+        "index": 7
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the car",
+        "the road",
+        "the trip"
+      ],
+      "answer": "the road",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "road",
+          "index": 5,
+          "weight": 0.7000000000000001,
+          "note": "Roads have holes."
+        },
+        {
+          "token": "car",
+          "index": 1,
+          "weight": 0.18000000000000002,
+          "note": "The car rattled, but holes are road features."
+        },
+        {
+          "token": "rattled",
+          "index": 2,
+          "weight": 0.12000000000000001,
+          "note": "Rattling is the action."
+        }
+      ],
+      "clue": "full of holes",
+      "insight": "Holes belong to the road."
+    },
+    {
+      "title": "Cold Park",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence": "Liam zipped the jacket because it kept the wind out.",
+      "tokens": [
+        "Liam",
+        "zipped",
+        "the",
+        "jacket",
+        "because",
+        "it",
+        "kept",
+        "the",
+        "wind",
+        "out"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Liam",
+        "the jacket",
+        "the wind"
+      ],
+      "answer": "the jacket",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "jacket",
+          "index": 3,
+          "weight": 0.72,
+          "note": "Jackets block wind."
+        },
+        {
+          "token": "wind",
+          "index": 8,
+          "weight": 0.16,
+          "note": "Wind is what gets blocked."
+        },
+        {
+          "token": "zipped",
+          "index": 1,
+          "weight": 0.12,
+          "note": "Zipping is the action."
+        }
+      ],
+      "clue": "kept the wind out",
+      "insight": "Blocking the wind describes the jacket."
+    },
+    {
+      "title": "Wet Towel",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence": "Pia hung the towel on the rail so it could dry quickly.",
+      "tokens": [
+        "Pia",
+        "hung",
+        "the",
+        "towel",
+        "on",
+        "the",
+        "rail",
+        "so",
+        "it",
+        "could",
+        "dry",
+        "quickly"
+      ],
+      "target": {
+        "text": "it",
+        "index": 8
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Pia",
+        "the towel",
+        "the rail"
+      ],
+      "answer": "the towel",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "towel",
+          "index": 3,
+          "weight": 0.72,
+          "note": "Towels dry on rails."
+        },
+        {
+          "token": "rail",
+          "index": 6,
+          "weight": 0.16,
+          "note": "The rail is the support."
+        },
+        {
+          "token": "hung",
+          "index": 1,
+          "weight": 0.12,
+          "note": "Hanging is the action."
+        }
+      ],
+      "clue": "could dry quickly",
+      "insight": "Drying describes the towel."
+    },
+    {
+      "title": "Lost Toy",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence": "Arjun found the toy after it rolled under the couch.",
+      "tokens": [
+        "Arjun",
+        "found",
+        "the",
+        "toy",
+        "after",
+        "it",
+        "rolled",
+        "under",
+        "the",
+        "couch"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Arjun",
+        "the toy",
+        "the couch"
+      ],
+      "answer": "the toy",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "toy",
+          "index": 3,
+          "weight": 0.72,
+          "note": "The toy did the rolling."
+        },
+        {
+          "token": "couch",
+          "index": 9,
+          "weight": 0.16,
+          "note": "The couch is the place."
+        },
+        {
+          "token": "found",
+          "index": 1,
+          "weight": 0.12,
+          "note": "Finding is the action."
+        }
+      ],
+      "clue": "rolled under the couch",
+      "insight": "The roller is the toy."
+    },
+    {
+      "title": "Hard Test",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence": "Sara reread the test because it had tricky questions on it.",
+      "tokens": [
+        "Sara",
+        "reread",
+        "the",
+        "test",
+        "because",
+        "it",
+        "had",
+        "tricky",
+        "questions",
+        "on",
+        "it"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Sara",
+        "the test",
+        "the desk"
+      ],
+      "answer": "the test",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "test",
+          "index": 3,
+          "weight": 0.74,
+          "note": "The test holds the questions."
+        },
+        {
+          "token": "Sara",
+          "index": 0,
+          "weight": 0.14,
+          "note": "Sara is the reader."
+        },
+        {
+          "token": "reread",
+          "index": 1,
+          "weight": 0.12,
+          "note": "Rereading is the action."
+        }
+      ],
+      "clue": "had tricky questions",
+      "insight": "The thing with tricky questions is the test."
+    },
+    {
+      "title": "Open Bag",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence": "Eli zipped the bag after it nearly tipped over.",
+      "tokens": [
+        "Eli",
+        "zipped",
+        "the",
+        "bag",
+        "after",
+        "it",
+        "nearly",
+        "tipped",
+        "over"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Eli",
+        "the bag",
+        "the floor"
+      ],
+      "answer": "the bag",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "bag",
+          "index": 3,
+          "weight": 0.74,
+          "note": "The bag tipped."
+        },
+        {
+          "token": "Eli",
+          "index": 0,
+          "weight": 0.14,
+          "note": "Eli closed it."
+        },
+        {
+          "token": "zipped",
+          "index": 1,
+          "weight": 0.12,
+          "note": "Zipping is the action."
+        }
+      ],
+      "clue": "nearly tipped over",
+      "insight": "The tipper is the bag."
+    },
+    {
+      "title": "Sharp Knife",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence": "Dad set the knife aside because it had a chipped edge.",
+      "tokens": [
+        "Dad",
+        "set",
+        "the",
+        "knife",
+        "aside",
+        "because",
+        "it",
+        "had",
+        "a",
+        "chipped",
+        "edge"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Dad",
+        "the knife",
+        "the edge"
+      ],
+      "answer": "the knife",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "knife",
+          "index": 3,
+          "weight": 0.74,
+          "note": "The knife has the edge."
+        },
+        {
+          "token": "edge",
+          "index": 10,
+          "weight": 0.14,
+          "note": "Edge is part of the knife."
+        },
+        {
+          "token": "set",
+          "index": 1,
+          "weight": 0.12,
+          "note": "Setting aside is the action."
+        }
+      ],
+      "clue": "had a chipped edge",
+      "insight": "The thing with a chipped edge is the knife."
+    },
+    {
+      "title": "New Movie",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence": "Tara paused the movie because it became too scary for her.",
+      "tokens": [
+        "Tara",
+        "paused",
+        "the",
+        "movie",
+        "because",
+        "it",
+        "became",
+        "too",
+        "scary",
+        "for",
+        "her"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Tara",
+        "the movie",
+        "the room"
+      ],
+      "answer": "the movie",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "movie",
+          "index": 3,
+          "weight": 0.74,
+          "note": "The movie became scary."
+        },
+        {
+          "token": "Tara",
+          "index": 0,
+          "weight": 0.14,
+          "note": "Tara reacted."
+        },
+        {
+          "token": "paused",
+          "index": 1,
+          "weight": 0.12,
+          "note": "Pausing is the action."
+        }
+      ],
+      "clue": "became too scary",
+      "insight": "The scary thing is the movie."
+    },
+    {
+      "title": "Tight Lid",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence": "Nora twisted the cap until it finally came loose.",
+      "tokens": [
+        "Nora",
+        "twisted",
+        "the",
+        "cap",
+        "until",
+        "it",
+        "finally",
+        "came",
+        "loose"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Nora",
+        "the cap",
+        "the bottle"
+      ],
+      "answer": "the cap",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "cap",
+          "index": 3,
+          "weight": 0.74,
+          "note": "The cap came loose."
+        },
+        {
+          "token": "Nora",
+          "index": 0,
+          "weight": 0.14,
+          "note": "Nora did the twisting."
+        },
+        {
+          "token": "twisted",
+          "index": 1,
+          "weight": 0.12,
+          "note": "Twisting is the action."
+        }
+      ],
+      "clue": "came loose",
+      "insight": "The loosened part is the cap."
+    },
+    {
+      "title": "Cracked Mug",
+      "level": "builder",
+      "difficulty": 1,
+      "sentence": "Karim threw out the mug because it had a long crack.",
+      "tokens": [
+        "Karim",
+        "threw",
+        "out",
+        "the",
+        "mug",
+        "because",
+        "it",
+        "had",
+        "a",
+        "long",
+        "crack"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Karim",
+        "the mug",
+        "the shelf"
+      ],
+      "answer": "the mug",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "mug",
+          "index": 4,
+          "weight": 0.7000000000000001,
+          "note": "The mug is the cracked item."
+        },
+        {
+          "token": "crack",
+          "index": 10,
+          "weight": 0.18000000000000002,
+          "note": "The crack is the feature, not the holder."
+        },
+        {
+          "token": "threw",
+          "index": 1,
+          "weight": 0.12000000000000001,
+          "note": "Throwing out is the action."
+        }
+      ],
+      "clue": "had a long crack",
+      "insight": "The cracked item being tossed is the mug."
+    },
+    {
+      "title": "Tight Shoe",
+      "level": "builder",
+      "difficulty": 1,
+      "sentence": "Aisha returned the shoe because it pinched her toes.",
+      "tokens": [
+        "Aisha",
+        "returned",
+        "the",
+        "shoe",
+        "because",
+        "it",
+        "pinched",
+        "her",
+        "toes"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Aisha",
+        "the shoe",
+        "the store"
+      ],
+      "answer": "the shoe",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "shoe",
+          "index": 3,
+          "weight": 0.7,
+          "note": "The shoe is what pinched."
+        },
+        {
+          "token": "toes",
+          "index": 8,
+          "weight": 0.17,
+          "note": "Toes are what got pinched."
+        },
+        {
+          "token": "Aisha",
+          "index": 0,
+          "weight": 0.13,
+          "note": "Aisha is the wearer."
+        }
+      ],
+      "clue": "pinched her toes",
+      "insight": "The pinching item is the shoe."
+    },
+    {
+      "title": "Quiet Class",
+      "level": "builder",
+      "difficulty": 1,
+      "sentence": "The teacher praised the class because it had stayed calm.",
+      "tokens": [
+        "The",
+        "teacher",
+        "praised",
+        "the",
+        "class",
+        "because",
+        "it",
+        "had",
+        "stayed",
+        "calm"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the teacher",
+        "the class",
+        "the lesson"
+      ],
+      "answer": "the class",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "class",
+          "index": 4,
+          "weight": 0.7000000000000001,
+          "note": "The class stayed calm."
+        },
+        {
+          "token": "teacher",
+          "index": 1,
+          "weight": 0.18000000000000002,
+          "note": "The teacher gave the praise."
+        },
+        {
+          "token": "praised",
+          "index": 2,
+          "weight": 0.12000000000000001,
+          "note": "Praising is the action."
+        }
+      ],
+      "clue": "had stayed calm",
+      "insight": "The calm group is the class."
+    },
+    {
+      "title": "Sour Lemon",
+      "level": "builder",
+      "difficulty": 1,
+      "sentence": "Diya rinsed the lemon before she sliced it for the salad.",
+      "tokens": [
+        "Diya",
+        "rinsed",
+        "the",
+        "lemon",
+        "before",
+        "she",
+        "sliced",
+        "it",
+        "for",
+        "the",
+        "salad"
+      ],
+      "target": {
+        "text": "it",
+        "index": 7
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Diya",
+        "the lemon",
+        "the salad"
+      ],
+      "answer": "the lemon",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "lemon",
+          "index": 3,
+          "weight": 0.7,
+          "note": "The lemon is the thing being sliced."
+        },
+        {
+          "token": "salad",
+          "index": 10,
+          "weight": 0.16,
+          "note": "The salad is the destination."
+        },
+        {
+          "token": "Diya",
+          "index": 0,
+          "weight": 0.14,
+          "note": "Diya is the actor."
+        }
+      ],
+      "clue": "sliced it for the salad",
+      "insight": "The sliced food is the lemon."
+    },
+    {
+      "title": "Late Train",
+      "level": "builder",
+      "difficulty": 1,
+      "sentence": "Samir missed the train because it left earlier than the board said.",
+      "tokens": [
+        "Samir",
+        "missed",
+        "the",
+        "train",
+        "because",
+        "it",
+        "left",
+        "earlier",
+        "than",
+        "the",
+        "board",
+        "said"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Samir",
+        "the train",
+        "the board"
+      ],
+      "answer": "the train",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "train",
+          "index": 3,
+          "weight": 0.7000000000000001,
+          "note": "Trains leave on schedules."
+        },
+        {
+          "token": "board",
+          "index": 10,
+          "weight": 0.18000000000000002,
+          "note": "The board listed the time."
+        },
+        {
+          "token": "missed",
+          "index": 1,
+          "weight": 0.12000000000000001,
+          "note": "Missing is the action."
+        }
+      ],
+      "clue": "left earlier than the board said",
+      "insight": "The departing thing is the train."
+    },
+    {
+      "title": "Old Bike",
+      "level": "builder",
+      "difficulty": 1,
+      "sentence": "Riya cleaned the bike after it had sat in the rain.",
+      "tokens": [
+        "Riya",
+        "cleaned",
+        "the",
+        "bike",
+        "after",
+        "it",
+        "had",
+        "sat",
+        "in",
+        "the",
+        "rain"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Riya",
+        "the bike",
+        "the rain"
+      ],
+      "answer": "the bike",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "bike",
+          "index": 3,
+          "weight": 0.7,
+          "note": "The bike sat in the rain."
+        },
+        {
+          "token": "rain",
+          "index": 10,
+          "weight": 0.17,
+          "note": "Rain is the cause, not the sitter."
+        },
+        {
+          "token": "cleaned",
+          "index": 1,
+          "weight": 0.13,
+          "note": "Cleaning is the action."
+        }
+      ],
+      "clue": "had sat in the rain",
+      "insight": "The wet item being cleaned is the bike."
+    },
+    {
+      "title": "Soft Pillow",
+      "level": "builder",
+      "difficulty": 1,
+      "sentence": "Mia hugged the pillow while it warmed her cold cheek.",
+      "tokens": [
+        "Mia",
+        "hugged",
+        "the",
+        "pillow",
+        "while",
+        "it",
+        "warmed",
+        "her",
+        "cold",
+        "cheek"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Mia",
+        "the pillow",
+        "the bed"
+      ],
+      "answer": "the pillow",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "pillow",
+          "index": 3,
+          "weight": 0.72,
+          "note": "The pillow does the warming."
+        },
+        {
+          "token": "cheek",
+          "index": 9,
+          "weight": 0.16,
+          "note": "Cheek is what got warm."
+        },
+        {
+          "token": "Mia",
+          "index": 0,
+          "weight": 0.12,
+          "note": "Mia is the hugger."
+        }
+      ],
+      "clue": "warmed her cold cheek",
+      "insight": "The warming object is the pillow."
+    },
+    {
+      "title": "Wet Floor",
+      "level": "builder",
+      "difficulty": 1,
+      "sentence": "Jay mopped the floor again because it kept staying damp.",
+      "tokens": [
+        "Jay",
+        "mopped",
+        "the",
+        "floor",
+        "again",
+        "because",
+        "it",
+        "kept",
+        "staying",
+        "damp"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Jay",
+        "the floor",
+        "the mop"
+      ],
+      "answer": "the floor",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "floor",
+          "index": 3,
+          "weight": 0.7000000000000001,
+          "note": "The floor stayed damp."
+        },
+        {
+          "token": "damp",
+          "index": 9,
+          "weight": 0.18000000000000002,
+          "note": "Damp is the state, not the surface."
+        },
+        {
+          "token": "mopped",
+          "index": 1,
+          "weight": 0.12000000000000001,
+          "note": "Mopping is the action."
+        }
+      ],
+      "clue": "kept staying damp",
+      "insight": "The damp surface is the floor."
+    },
+    {
+      "title": "New Pen",
+      "level": "builder",
+      "difficulty": 1,
+      "sentence": "Vidya tested the pen after it had stopped writing well.",
+      "tokens": [
+        "Vidya",
+        "tested",
+        "the",
+        "pen",
+        "after",
+        "it",
+        "had",
+        "stopped",
+        "writing",
+        "well"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Vidya",
+        "the pen",
+        "the page"
+      ],
+      "answer": "the pen",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "pen",
+          "index": 3,
+          "weight": 0.7000000000000001,
+          "note": "The pen does the writing."
+        },
+        {
+          "token": "writing",
+          "index": 8,
+          "weight": 0.18000000000000002,
+          "note": "Writing is the function."
+        },
+        {
+          "token": "tested",
+          "index": 1,
+          "weight": 0.12000000000000001,
+          "note": "Testing is the action."
+        }
+      ],
+      "clue": "had stopped writing well",
+      "insight": "The writing tool is the pen."
+    },
+    {
+      "title": "Dim Lamp",
+      "level": "builder",
+      "difficulty": 1,
+      "sentence": "Mom moved the lamp because it cast too dim a glow.",
+      "tokens": [
+        "Mom",
+        "moved",
+        "the",
+        "lamp",
+        "because",
+        "it",
+        "cast",
+        "too",
+        "dim",
+        "a",
+        "glow"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Mom",
+        "the lamp",
+        "the glow"
+      ],
+      "answer": "the lamp",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "lamp",
+          "index": 3,
+          "weight": 0.7000000000000001,
+          "note": "The lamp casts the glow."
+        },
+        {
+          "token": "glow",
+          "index": 10,
+          "weight": 0.18000000000000002,
+          "note": "The glow is what was dim."
+        },
+        {
+          "token": "moved",
+          "index": 1,
+          "weight": 0.12000000000000001,
+          "note": "Moving is the action."
+        }
+      ],
+      "clue": "cast too dim a glow",
+      "insight": "The light source is the lamp."
+    },
+    {
+      "title": "Dropped Catch",
+      "level": "builder",
+      "difficulty": 2,
+      "sentence": "The fielder dropped the ball after it bounced off his glove.",
+      "tokens": [
+        "The",
+        "fielder",
+        "dropped",
+        "the",
+        "ball",
+        "after",
+        "it",
+        "bounced",
+        "off",
+        "his",
+        "glove"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the fielder",
+        "the ball",
+        "the glove"
+      ],
+      "answer": "the ball",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "ball",
+          "index": 4,
+          "weight": 0.66,
+          "note": "The ball bounced."
+        },
+        {
+          "token": "glove",
+          "index": 10,
+          "weight": 0.2,
+          "note": "The glove is what it bounced off."
+        },
+        {
+          "token": "fielder",
+          "index": 1,
+          "weight": 0.14,
+          "note": "The fielder is the dropper."
+        }
+      ],
+      "clue": "bounced off his glove",
+      "insight": "The bouncing object is the ball."
+    },
+    {
+      "title": "Flat Tire",
+      "level": "builder",
+      "difficulty": 2,
+      "sentence": "Luca filled the tire after it had lost most of its air.",
+      "tokens": [
+        "Luca",
+        "filled",
+        "the",
+        "tire",
+        "after",
+        "it",
+        "had",
+        "lost",
+        "most",
+        "of",
+        "its",
+        "air"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Luca",
+        "the tire",
+        "the air"
+      ],
+      "answer": "the tire",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "tire",
+          "index": 3,
+          "weight": 0.66,
+          "note": "The tire lost air."
+        },
+        {
+          "token": "air",
+          "index": 11,
+          "weight": 0.2,
+          "note": "Air is what was lost."
+        },
+        {
+          "token": "Luca",
+          "index": 0,
+          "weight": 0.14,
+          "note": "Luca did the filling."
+        }
+      ],
+      "clue": "had lost most of its air",
+      "insight": "The deflated object is the tire."
+    },
+    {
+      "title": "Burnt Toast",
+      "level": "builder",
+      "difficulty": 2,
+      "sentence": "Ravi tossed the toast because it had turned an ugly black.",
+      "tokens": [
+        "Ravi",
+        "tossed",
+        "the",
+        "toast",
+        "because",
+        "it",
+        "had",
+        "turned",
+        "an",
+        "ugly",
+        "black"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Ravi",
+        "the toast",
+        "the toaster"
+      ],
+      "answer": "the toast",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "toast",
+          "index": 3,
+          "weight": 0.68,
+          "note": "The toast turned black."
+        },
+        {
+          "token": "black",
+          "index": 10,
+          "weight": 0.18,
+          "note": "Black is the color, not the food."
+        },
+        {
+          "token": "Ravi",
+          "index": 0,
+          "weight": 0.14,
+          "note": "Ravi is the tosser."
+        }
+      ],
+      "clue": "had turned an ugly black",
+      "insight": "The blackened item is the toast."
+    },
+    {
+      "title": "Slow Lift",
+      "level": "builder",
+      "difficulty": 2,
+      "sentence": "Ayan took the stairs since the lift had stalled and it stayed stuck.",
+      "tokens": [
+        "Ayan",
+        "took",
+        "the",
+        "stairs",
+        "since",
+        "the",
+        "lift",
+        "had",
+        "stalled",
+        "and",
+        "it",
+        "stayed",
+        "stuck"
+      ],
+      "target": {
+        "text": "it",
+        "index": 10
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Ayan",
+        "the lift",
+        "the stairs"
+      ],
+      "answer": "the lift",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "lift",
+          "index": 6,
+          "weight": 0.68,
+          "note": "The lift stalled and stayed stuck."
+        },
+        {
+          "token": "stairs",
+          "index": 3,
+          "weight": 0.18,
+          "note": "Stairs are the alternative."
+        },
+        {
+          "token": "stalled",
+          "index": 8,
+          "weight": 0.14,
+          "note": "Stalling is the cause."
+        }
+      ],
+      "clue": "had stalled",
+      "insight": "The stalled machine is the lift."
+    },
+    {
+      "title": "Big Box",
+      "level": "builder",
+      "difficulty": 2,
+      "sentence": "Sara cut open the box because it had tape on every seam.",
+      "tokens": [
+        "Sara",
+        "cut",
+        "open",
+        "the",
+        "box",
+        "because",
+        "it",
+        "had",
+        "tape",
+        "on",
+        "every",
+        "seam"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Sara",
+        "the box",
+        "the tape"
+      ],
+      "answer": "the box",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "box",
+          "index": 4,
+          "weight": 0.66,
+          "note": "The box has the seams."
+        },
+        {
+          "token": "tape",
+          "index": 8,
+          "weight": 0.2,
+          "note": "Tape is on the box."
+        },
+        {
+          "token": "cut",
+          "index": 1,
+          "weight": 0.14,
+          "note": "Cutting is the action."
+        }
+      ],
+      "clue": "had tape on every seam",
+      "insight": "The taped object is the box."
+    },
+    {
+      "title": "Loud Fan",
+      "level": "builder",
+      "difficulty": 2,
+      "sentence": "Dad oiled the fan because it had begun to squeak loudly.",
+      "tokens": [
+        "Dad",
+        "oiled",
+        "the",
+        "fan",
+        "because",
+        "it",
+        "had",
+        "begun",
+        "to",
+        "squeak",
+        "loudly"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Dad",
+        "the fan",
+        "the oil"
+      ],
+      "answer": "the fan",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "fan",
+          "index": 3,
+          "weight": 0.68,
+          "note": "The fan was squeaking."
+        },
+        {
+          "token": "squeak",
+          "index": 9,
+          "weight": 0.18,
+          "note": "Squeak is the sound."
+        },
+        {
+          "token": "oiled",
+          "index": 1,
+          "weight": 0.14,
+          "note": "Oiling is the action."
+        }
+      ],
+      "clue": "had begun to squeak loudly",
+      "insight": "The squeaking machine is the fan."
+    },
+    {
+      "title": "Cool Drink",
+      "level": "builder",
+      "difficulty": 2,
+      "sentence": "Arjun set the can aside because it had grown lukewarm fast.",
+      "tokens": [
+        "Arjun",
+        "set",
+        "the",
+        "can",
+        "aside",
+        "because",
+        "it",
+        "had",
+        "grown",
+        "lukewarm",
+        "fast"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Arjun",
+        "the can",
+        "the table"
+      ],
+      "answer": "the can",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "can",
+          "index": 3,
+          "weight": 0.68,
+          "note": "The can held the drink."
+        },
+        {
+          "token": "lukewarm",
+          "index": 9,
+          "weight": 0.18,
+          "note": "Lukewarm is the state."
+        },
+        {
+          "token": "set",
+          "index": 1,
+          "weight": 0.14,
+          "note": "Setting aside is the action."
+        }
+      ],
+      "clue": "had grown lukewarm fast",
+      "insight": "The warming drink is the can."
+    },
+    {
+      "title": "Open Gate",
+      "level": "builder",
+      "difficulty": 2,
+      "sentence": "Ria latched the gate after it swung wide in the wind.",
+      "tokens": [
+        "Ria",
+        "latched",
+        "the",
+        "gate",
+        "after",
+        "it",
+        "swung",
+        "wide",
+        "in",
+        "the",
+        "wind"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Ria",
+        "the gate",
+        "the wind"
+      ],
+      "answer": "the gate",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "gate",
+          "index": 3,
+          "weight": 0.68,
+          "note": "The gate swung."
+        },
+        {
+          "token": "wind",
+          "index": 10,
+          "weight": 0.18,
+          "note": "Wind is the cause."
+        },
+        {
+          "token": "latched",
+          "index": 1,
+          "weight": 0.14,
+          "note": "Latching is the action."
+        }
+      ],
+      "clue": "swung wide in the wind",
+      "insight": "The swinging object is the gate."
+    },
+    {
+      "title": "Soft Cake",
+      "level": "builder",
+      "difficulty": 2,
+      "sentence": "Tara pulled the cake from the oven before it could sink.",
+      "tokens": [
+        "Tara",
+        "pulled",
+        "the",
+        "cake",
+        "from",
+        "the",
+        "oven",
+        "before",
+        "it",
+        "could",
+        "sink"
+      ],
+      "target": {
+        "text": "it",
+        "index": 8
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Tara",
+        "the cake",
+        "the oven"
+      ],
+      "answer": "the cake",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "cake",
+          "index": 3,
+          "weight": 0.68,
+          "note": "The cake might sink."
+        },
+        {
+          "token": "oven",
+          "index": 6,
+          "weight": 0.18,
+          "note": "Oven is the place."
+        },
+        {
+          "token": "pulled",
+          "index": 1,
+          "weight": 0.14,
+          "note": "Pulling out is the action."
+        }
+      ],
+      "clue": "before it could sink",
+      "insight": "The bake at risk is the cake."
+    },
+    {
+      "title": "Lost Key",
+      "level": "builder",
+      "difficulty": 2,
+      "sentence": "Nora retraced her steps to find the key since it had to be there.",
+      "tokens": [
+        "Nora",
+        "retraced",
+        "her",
+        "steps",
+        "to",
+        "find",
+        "the",
+        "key",
+        "since",
+        "it",
+        "had",
+        "to",
+        "be",
+        "there"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Nora",
+        "the key",
+        "her steps"
+      ],
+      "answer": "the key",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "key",
+          "index": 7,
+          "weight": 0.68,
+          "note": "The key was the lost item."
+        },
+        {
+          "token": "steps",
+          "index": 3,
+          "weight": 0.18,
+          "note": "Steps are what she retraced."
+        },
+        {
+          "token": "retraced",
+          "index": 1,
+          "weight": 0.14,
+          "note": "Retracing is the action."
+        }
+      ],
+      "clue": "had to be there",
+      "insight": "The thing that had to be there is the key."
+    },
+    {
+      "title": "Stalled Game",
+      "level": "builder",
+      "difficulty": 3,
+      "sentence": "The coach paused the game because it had grown messy fast.",
+      "tokens": [
+        "The",
+        "coach",
+        "paused",
+        "the",
+        "game",
+        "because",
+        "it",
+        "had",
+        "grown",
+        "messy",
+        "fast"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the coach",
+        "the game",
+        "the crowd"
+      ],
+      "answer": "the game",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "game",
+          "index": 4,
+          "weight": 0.64,
+          "note": "The game grew messy."
+        },
+        {
+          "token": "messy",
+          "index": 9,
+          "weight": 0.2,
+          "note": "Messy is the state, not the actor."
+        },
+        {
+          "token": "coach",
+          "index": 1,
+          "weight": 0.16,
+          "note": "The coach makes the call."
+        }
+      ],
+      "clue": "had grown messy fast",
+      "insight": "The thing growing messy is the game itself."
+    },
+    {
+      "title": "Slow Edit",
+      "level": "builder",
+      "difficulty": 3,
+      "sentence": "Tina paused the video because it had played at a low rate.",
+      "tokens": [
+        "Tina",
+        "paused",
+        "the",
+        "video",
+        "because",
+        "it",
+        "had",
+        "played",
+        "at",
+        "a",
+        "low",
+        "rate"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Tina",
+        "the video",
+        "the rate"
+      ],
+      "answer": "the video",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "video",
+          "index": 3,
+          "weight": 0.64,
+          "note": "The video played at low rate."
+        },
+        {
+          "token": "rate",
+          "index": 11,
+          "weight": 0.2,
+          "note": "Rate is the speed value."
+        },
+        {
+          "token": "paused",
+          "index": 1,
+          "weight": 0.16,
+          "note": "Pausing is the action."
+        }
+      ],
+      "clue": "played at a low rate",
+      "insight": "The playing item is the video."
+    },
+    {
+      "title": "Cold Stew",
+      "level": "builder",
+      "difficulty": 3,
+      "sentence": "Mom heated the stew so that it would warm the family up.",
+      "tokens": [
+        "Mom",
+        "heated",
+        "the",
+        "stew",
+        "so",
+        "that",
+        "it",
+        "would",
+        "warm",
+        "the",
+        "family",
+        "up"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Mom",
+        "the stew",
+        "the family"
+      ],
+      "answer": "the stew",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "stew",
+          "index": 3,
+          "weight": 0.64,
+          "note": "The stew does the warming."
+        },
+        {
+          "token": "family",
+          "index": 10,
+          "weight": 0.2,
+          "note": "The family is who gets warm."
+        },
+        {
+          "token": "heated",
+          "index": 1,
+          "weight": 0.16,
+          "note": "Heating is the action."
+        }
+      ],
+      "clue": "warm the family up",
+      "insight": "The warming food is the stew."
+    },
+    {
+      "title": "Wet Map",
+      "level": "builder",
+      "difficulty": 3,
+      "sentence": "Rohan flattened the map after it had crinkled in his bag.",
+      "tokens": [
+        "Rohan",
+        "flattened",
+        "the",
+        "map",
+        "after",
+        "it",
+        "had",
+        "crinkled",
+        "in",
+        "his",
+        "bag"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Rohan",
+        "the map",
+        "the bag"
+      ],
+      "answer": "the map",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "map",
+          "index": 3,
+          "weight": 0.66,
+          "note": "The map crinkled."
+        },
+        {
+          "token": "bag",
+          "index": 10,
+          "weight": 0.2,
+          "note": "The bag is the place."
+        },
+        {
+          "token": "flattened",
+          "index": 1,
+          "weight": 0.14,
+          "note": "Flattening is the action."
+        }
+      ],
+      "clue": "had crinkled in his bag",
+      "insight": "The crinkled paper is the map."
+    },
+    {
+      "title": "Late Email",
+      "level": "builder",
+      "difficulty": 3,
+      "sentence": "Anil sent the email twice because it had not gone through.",
+      "tokens": [
+        "Anil",
+        "sent",
+        "the",
+        "email",
+        "twice",
+        "because",
+        "it",
+        "had",
+        "not",
+        "gone",
+        "through"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Anil",
+        "the email",
+        "the box"
+      ],
+      "answer": "the email",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "email",
+          "index": 3,
+          "weight": 0.66,
+          "note": "The email failed to send."
+        },
+        {
+          "token": "Anil",
+          "index": 0,
+          "weight": 0.18,
+          "note": "Anil is the sender."
+        },
+        {
+          "token": "sent",
+          "index": 1,
+          "weight": 0.16,
+          "note": "Sending is the action."
+        }
+      ],
+      "clue": "had not gone through",
+      "insight": "The unsent message is the email."
+    },
+    {
+      "title": "Empty Tank",
+      "level": "builder",
+      "difficulty": 3,
+      "sentence": "Pria filled the tank since it had run dry on the way.",
+      "tokens": [
+        "Pria",
+        "filled",
+        "the",
+        "tank",
+        "since",
+        "it",
+        "had",
+        "run",
+        "dry",
+        "on",
+        "the",
+        "way"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Pria",
+        "the tank",
+        "the car"
+      ],
+      "answer": "the tank",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "tank",
+          "index": 3,
+          "weight": 0.64,
+          "note": "The tank ran dry."
+        },
+        {
+          "token": "way",
+          "index": 11,
+          "weight": 0.2,
+          "note": "The way is the trip context."
+        },
+        {
+          "token": "filled",
+          "index": 1,
+          "weight": 0.16,
+          "note": "Filling is the action."
+        }
+      ],
+      "clue": "had run dry on the way",
+      "insight": "The dry container is the tank."
+    },
+    {
+      "title": "Worn Rope",
+      "level": "builder",
+      "difficulty": 3,
+      "sentence": "Naina swapped the rope because it had frayed at both ends.",
+      "tokens": [
+        "Naina",
+        "swapped",
+        "the",
+        "rope",
+        "because",
+        "it",
+        "had",
+        "frayed",
+        "at",
+        "both",
+        "ends"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Naina",
+        "the rope",
+        "the ends"
+      ],
+      "answer": "the rope",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "rope",
+          "index": 3,
+          "weight": 0.66,
+          "note": "The rope frayed."
+        },
+        {
+          "token": "ends",
+          "index": 10,
+          "weight": 0.2,
+          "note": "Ends are where the fraying showed."
+        },
+        {
+          "token": "swapped",
+          "index": 1,
+          "weight": 0.14,
+          "note": "Swapping is the action."
+        }
+      ],
+      "clue": "had frayed at both ends",
+      "insight": "The frayed item is the rope."
+    },
+    {
+      "title": "Shy Pup",
+      "level": "builder",
+      "difficulty": 3,
+      "sentence": "The vet calmed the pup until it stopped shaking in his arms.",
+      "tokens": [
+        "The",
+        "vet",
+        "calmed",
+        "the",
+        "pup",
+        "until",
+        "it",
+        "stopped",
+        "shaking",
+        "in",
+        "his",
+        "arms"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the vet",
+        "the pup",
+        "the arms"
+      ],
+      "answer": "the pup",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "pup",
+          "index": 4,
+          "weight": 0.68,
+          "note": "The pup was shaking."
+        },
+        {
+          "token": "arms",
+          "index": 11,
+          "weight": 0.2,
+          "note": "Arms are the place."
+        },
+        {
+          "token": "vet",
+          "index": 1,
+          "weight": 0.12,
+          "note": "The vet did the calming."
+        }
+      ],
+      "clue": "stopped shaking in his arms",
+      "insight": "The shaker is the pup."
+    },
+    {
+      "title": "Stiff Lock",
+      "level": "builder",
+      "difficulty": 3,
+      "sentence": "Sami sprayed the lock after it had jammed all winter long.",
+      "tokens": [
+        "Sami",
+        "sprayed",
+        "the",
+        "lock",
+        "after",
+        "it",
+        "had",
+        "jammed",
+        "all",
+        "winter",
+        "long"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Sami",
+        "the lock",
+        "the spray"
+      ],
+      "answer": "the lock",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "lock",
+          "index": 3,
+          "weight": 0.66,
+          "note": "The lock jammed."
+        },
+        {
+          "token": "winter",
+          "index": 9,
+          "weight": 0.2,
+          "note": "Winter is the time."
+        },
+        {
+          "token": "sprayed",
+          "index": 1,
+          "weight": 0.14,
+          "note": "Spraying is the action."
+        }
+      ],
+      "clue": "had jammed all winter long",
+      "insight": "The jammed item is the lock."
+    },
+    {
+      "title": "Loud Talk",
+      "level": "builder",
+      "difficulty": 3,
+      "sentence": "Mira muted the call once it had grown loud and tense.",
+      "tokens": [
+        "Mira",
+        "muted",
+        "the",
+        "call",
+        "once",
+        "it",
+        "had",
+        "grown",
+        "loud",
+        "and",
+        "tense"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Mira",
+        "the phone",
+        "the call"
+      ],
+      "answer": "the call",
+      "answerIndex": 2,
+      "candidates": [
+        {
+          "token": "call",
+          "index": 3,
+          "weight": 0.66,
+          "note": "The call grew loud and tense."
+        },
+        {
+          "token": "Mira",
+          "index": 0,
+          "weight": 0.2,
+          "note": "Mira muted in response."
+        },
+        {
+          "token": "muted",
+          "index": 1,
+          "weight": 0.14,
+          "note": "Muting is the action."
+        }
+      ],
+      "clue": "had grown loud and tense",
+      "insight": "The loud thing is the call itself."
+    },
+    {
+      "title": "Cracked Plan",
+      "level": "builder",
+      "difficulty": 4,
+      "sentence": "The team revised the plan after it had failed an early test.",
+      "tokens": [
+        "The",
+        "team",
+        "revised",
+        "the",
+        "plan",
+        "after",
+        "it",
+        "had",
+        "failed",
+        "an",
+        "early",
+        "test"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the team",
+        "the plan",
+        "the test"
+      ],
+      "answer": "the plan",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "plan",
+          "index": 4,
+          "weight": 0.62,
+          "note": "The plan failed the test."
+        },
+        {
+          "token": "test",
+          "index": 11,
+          "weight": 0.22,
+          "note": "The test is the cause."
+        },
+        {
+          "token": "team",
+          "index": 1,
+          "weight": 0.16,
+          "note": "The team revises the plan."
+        }
+      ],
+      "clue": "had failed an early test",
+      "insight": "The failing item is the plan."
+    },
+    {
+      "title": "Stale Bread",
+      "level": "builder",
+      "difficulty": 4,
+      "sentence": "Maya tossed the bread because it had grown hard and crumbly.",
+      "tokens": [
+        "Maya",
+        "tossed",
+        "the",
+        "bread",
+        "because",
+        "it",
+        "had",
+        "grown",
+        "hard",
+        "and",
+        "crumbly"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Maya",
+        "the bread",
+        "the loaf"
+      ],
+      "answer": "the bread",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "bread",
+          "index": 3,
+          "weight": 0.62,
+          "note": "The bread grew hard."
+        },
+        {
+          "token": "hard",
+          "index": 8,
+          "weight": 0.22,
+          "note": "Hard is the state, not the thing."
+        },
+        {
+          "token": "tossed",
+          "index": 1,
+          "weight": 0.16,
+          "note": "Tossing is the action."
+        }
+      ],
+      "clue": "had grown hard and crumbly",
+      "insight": "The hardened food is the bread."
+    },
+    {
+      "title": "Slow Site",
+      "level": "builder",
+      "difficulty": 4,
+      "sentence": "Dev rebuilt the site once it had slowed to a crawl daily.",
+      "tokens": [
+        "Dev",
+        "rebuilt",
+        "the",
+        "site",
+        "once",
+        "it",
+        "had",
+        "slowed",
+        "to",
+        "a",
+        "crawl",
+        "daily"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Dev",
+        "the site",
+        "the speed"
+      ],
+      "answer": "the site",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "site",
+          "index": 3,
+          "weight": 0.62,
+          "note": "The site slowed down."
+        },
+        {
+          "token": "crawl",
+          "index": 10,
+          "weight": 0.22,
+          "note": "Crawl is the speed clue."
+        },
+        {
+          "token": "rebuilt",
+          "index": 1,
+          "weight": 0.16,
+          "note": "Rebuilding is the action."
+        }
+      ],
+      "clue": "had slowed to a crawl daily",
+      "insight": "The slow product is the site."
+    },
+    {
+      "title": "Worn Tire",
+      "level": "builder",
+      "difficulty": 4,
+      "sentence": "The driver swapped the tire because it had bald spots forming.",
+      "tokens": [
+        "The",
+        "driver",
+        "swapped",
+        "the",
+        "tire",
+        "because",
+        "it",
+        "had",
+        "bald",
+        "spots",
+        "forming"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the driver",
+        "the tire",
+        "the road"
+      ],
+      "answer": "the tire",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "tire",
+          "index": 4,
+          "weight": 0.62,
+          "note": "The tire had bald spots."
+        },
+        {
+          "token": "spots",
+          "index": 9,
+          "weight": 0.22,
+          "note": "Spots are the wear marks."
+        },
+        {
+          "token": "driver",
+          "index": 1,
+          "weight": 0.16,
+          "note": "The driver swapped it."
+        }
+      ],
+      "clue": "had bald spots forming",
+      "insight": "The worn part is the tire."
+    },
+    {
+      "title": "Hot Engine",
+      "level": "builder",
+      "difficulty": 4,
+      "sentence": "Anya pulled the car over once it had begun to smoke a lot.",
+      "tokens": [
+        "Anya",
+        "pulled",
+        "the",
+        "car",
+        "over",
+        "once",
+        "it",
+        "had",
+        "begun",
+        "to",
+        "smoke",
+        "a",
+        "lot"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Anya",
+        "the car",
+        "the road"
+      ],
+      "answer": "the car",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "car",
+          "index": 3,
+          "weight": 0.64,
+          "note": "The car began to smoke."
+        },
+        {
+          "token": "Anya",
+          "index": 0,
+          "weight": 0.2,
+          "note": "Anya pulled over in response."
+        },
+        {
+          "token": "smoke",
+          "index": 10,
+          "weight": 0.16,
+          "note": "Smoke is the symptom."
+        }
+      ],
+      "clue": "had begun to smoke a lot",
+      "insight": "The smoking thing is the car."
+    },
+    {
+      "title": "Lost Trail",
+      "level": "builder",
+      "difficulty": 4,
+      "sentence": "Eli redrew the trail because it had washed out in the storm.",
+      "tokens": [
+        "Eli",
+        "redrew",
+        "the",
+        "trail",
+        "because",
+        "it",
+        "had",
+        "washed",
+        "out",
+        "in",
+        "the",
+        "storm"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Eli",
+        "the trail",
+        "the storm"
+      ],
+      "answer": "the trail",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "trail",
+          "index": 3,
+          "weight": 0.62,
+          "note": "The trail washed out."
+        },
+        {
+          "token": "storm",
+          "index": 11,
+          "weight": 0.22,
+          "note": "The storm caused it."
+        },
+        {
+          "token": "redrew",
+          "index": 1,
+          "weight": 0.16,
+          "note": "Redrawing is the action."
+        }
+      ],
+      "clue": "had washed out in the storm",
+      "insight": "The damaged path is the trail."
+    },
+    {
+      "title": "Faint Beam",
+      "level": "builder",
+      "difficulty": 4,
+      "sentence": "Asha replaced the torch since it had dimmed during the long hike.",
+      "tokens": [
+        "Asha",
+        "replaced",
+        "the",
+        "torch",
+        "since",
+        "it",
+        "had",
+        "dimmed",
+        "during",
+        "the",
+        "long",
+        "hike"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Asha",
+        "the torch",
+        "the hike"
+      ],
+      "answer": "the torch",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "torch",
+          "index": 3,
+          "weight": 0.62,
+          "note": "The torch dimmed."
+        },
+        {
+          "token": "hike",
+          "index": 11,
+          "weight": 0.22,
+          "note": "Hike is the time context."
+        },
+        {
+          "token": "replaced",
+          "index": 1,
+          "weight": 0.16,
+          "note": "Replacing is the action."
+        }
+      ],
+      "clue": "had dimmed during the long hike",
+      "insight": "The dimming light is the torch."
+    },
+    {
+      "title": "Bent Frame",
+      "level": "builder",
+      "difficulty": 4,
+      "sentence": "Ravi tossed the frame because it had warped in the heat.",
+      "tokens": [
+        "Ravi",
+        "tossed",
+        "the",
+        "frame",
+        "because",
+        "it",
+        "had",
+        "warped",
+        "in",
+        "the",
+        "heat"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Ravi",
+        "the frame",
+        "the heat"
+      ],
+      "answer": "the frame",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "frame",
+          "index": 3,
+          "weight": 0.62,
+          "note": "The frame warped."
+        },
+        {
+          "token": "heat",
+          "index": 10,
+          "weight": 0.22,
+          "note": "Heat is the cause."
+        },
+        {
+          "token": "tossed",
+          "index": 1,
+          "weight": 0.16,
+          "note": "Tossing is the action."
+        }
+      ],
+      "clue": "had warped in the heat",
+      "insight": "The warped part is the frame."
+    },
+    {
+      "title": "Quiet Bell",
+      "level": "builder",
+      "difficulty": 4,
+      "sentence": "The clerk fixed the bell after it had stopped ringing at all.",
+      "tokens": [
+        "The",
+        "clerk",
+        "fixed",
+        "the",
+        "bell",
+        "after",
+        "it",
+        "had",
+        "stopped",
+        "ringing",
+        "at",
+        "all"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the clerk",
+        "the bell",
+        "the door"
+      ],
+      "answer": "the bell",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "bell",
+          "index": 4,
+          "weight": 0.64,
+          "note": "The bell stopped ringing."
+        },
+        {
+          "token": "clerk",
+          "index": 1,
+          "weight": 0.2,
+          "note": "The clerk did the repair."
+        },
+        {
+          "token": "fixed",
+          "index": 2,
+          "weight": 0.16,
+          "note": "Fixing is the action."
+        }
+      ],
+      "clue": "had stopped ringing at all",
+      "insight": "The silent device is the bell."
+    },
+    {
+      "title": "Faded Sign",
+      "level": "builder",
+      "difficulty": 4,
+      "sentence": "Mira repainted the sign because it had bleached in the sun.",
+      "tokens": [
+        "Mira",
+        "repainted",
+        "the",
+        "sign",
+        "because",
+        "it",
+        "had",
+        "bleached",
+        "in",
+        "the",
+        "sun"
+      ],
+      "target": {
+        "text": "it",
+        "index": 5
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "Mira",
+        "the sign",
+        "the sun"
+      ],
+      "answer": "the sign",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "sign",
+          "index": 3,
+          "weight": 0.62,
+          "note": "The sign bleached."
+        },
+        {
+          "token": "sun",
+          "index": 10,
+          "weight": 0.22,
+          "note": "The sun is the cause."
+        },
+        {
+          "token": "repainted",
+          "index": 1,
+          "weight": 0.16,
+          "note": "Repainting is the action."
+        }
+      ],
+      "clue": "had bleached in the sun",
+      "insight": "The faded item is the sign."
+    },
+    {
+      "title": "Failed Audit",
+      "level": "advanced",
+      "difficulty": 1,
+      "sentence": "The board paused the rollout once it had failed an internal audit review.",
+      "tokens": [
+        "The",
+        "board",
+        "paused",
+        "the",
+        "rollout",
+        "once",
+        "it",
+        "had",
+        "failed",
+        "an",
+        "internal",
+        "audit",
+        "review"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the board",
+        "the rollout",
+        "the review"
+      ],
+      "answer": "the rollout",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "rollout",
+          "index": 4,
+          "weight": 0.6,
+          "note": "The rollout failed the audit."
+        },
+        {
+          "token": "board",
+          "index": 1,
+          "weight": 0.22,
+          "note": "The board paused things."
+        },
+        {
+          "token": "audit",
+          "index": 11,
+          "weight": 0.18,
+          "note": "The audit is what found the issue."
+        }
+      ],
+      "clue": "had failed an internal audit review",
+      "insight": "The failing item under review is the rollout."
+    },
+    {
+      "title": "Stale Brief",
+      "level": "advanced",
+      "difficulty": 1,
+      "sentence": "The lawyer rewrote the brief because it had cited an outdated ruling.",
+      "tokens": [
+        "The",
+        "lawyer",
+        "rewrote",
+        "the",
+        "brief",
+        "because",
+        "it",
+        "had",
+        "cited",
+        "an",
+        "outdated",
+        "ruling"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the lawyer",
+        "the brief",
+        "the ruling"
+      ],
+      "answer": "the brief",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "brief",
+          "index": 4,
+          "weight": 0.6,
+          "note": "The brief did the citing."
+        },
+        {
+          "token": "ruling",
+          "index": 11,
+          "weight": 0.22,
+          "note": "The ruling is what was cited."
+        },
+        {
+          "token": "lawyer",
+          "index": 1,
+          "weight": 0.18,
+          "note": "The lawyer is the writer."
+        }
+      ],
+      "clue": "had cited an outdated ruling",
+      "insight": "The thing doing the citing is the brief."
+    },
+    {
+      "title": "Slow Query",
+      "level": "advanced",
+      "difficulty": 1,
+      "sentence": "The team rewrote the query after it had timed out under load.",
+      "tokens": [
+        "The",
+        "team",
+        "rewrote",
+        "the",
+        "query",
+        "after",
+        "it",
+        "had",
+        "timed",
+        "out",
+        "under",
+        "load"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the team",
+        "the query",
+        "the load"
+      ],
+      "answer": "the query",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "query",
+          "index": 4,
+          "weight": 0.6,
+          "note": "The query timed out."
+        },
+        {
+          "token": "load",
+          "index": 11,
+          "weight": 0.22,
+          "note": "Load is the trigger."
+        },
+        {
+          "token": "team",
+          "index": 1,
+          "weight": 0.18,
+          "note": "The team did the rewrite."
+        }
+      ],
+      "clue": "had timed out under load",
+      "insight": "The slow request is the query."
+    },
+    {
+      "title": "Bad Patch",
+      "level": "advanced",
+      "difficulty": 1,
+      "sentence": "The engineer rolled back the patch since it had broken a key flow.",
+      "tokens": [
+        "The",
+        "engineer",
+        "rolled",
+        "back",
+        "the",
+        "patch",
+        "since",
+        "it",
+        "had",
+        "broken",
+        "a",
+        "key",
+        "flow"
+      ],
+      "target": {
+        "text": "it",
+        "index": 7
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the engineer",
+        "the patch",
+        "the flow"
+      ],
+      "answer": "the patch",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "patch",
+          "index": 5,
+          "weight": 0.6,
+          "note": "The patch broke the flow."
+        },
+        {
+          "token": "flow",
+          "index": 12,
+          "weight": 0.22,
+          "note": "The flow is what got broken."
+        },
+        {
+          "token": "engineer",
+          "index": 1,
+          "weight": 0.18,
+          "note": "The engineer did the revert."
+        }
+      ],
+      "clue": "had broken a key flow",
+      "insight": "The breaking change is the patch."
+    },
+    {
+      "title": "Vague Claim",
+      "level": "advanced",
+      "difficulty": 1,
+      "sentence": "The editor flagged the claim because it had rested on weak data.",
+      "tokens": [
+        "The",
+        "editor",
+        "flagged",
+        "the",
+        "claim",
+        "because",
+        "it",
+        "had",
+        "rested",
+        "on",
+        "weak",
+        "data"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the editor",
+        "the claim",
+        "the data"
+      ],
+      "answer": "the claim",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "claim",
+          "index": 4,
+          "weight": 0.6,
+          "note": "The claim rested on the data."
+        },
+        {
+          "token": "data",
+          "index": 11,
+          "weight": 0.22,
+          "note": "Data is the support."
+        },
+        {
+          "token": "editor",
+          "index": 1,
+          "weight": 0.18,
+          "note": "The editor did the flagging."
+        }
+      ],
+      "clue": "had rested on weak data",
+      "insight": "The unsupported item is the claim."
+    },
+    {
+      "title": "Soft Demand",
+      "level": "advanced",
+      "difficulty": 1,
+      "sentence": "The seller cut the price once it had stalled the slow buyer pool.",
+      "tokens": [
+        "The",
+        "seller",
+        "cut",
+        "the",
+        "price",
+        "once",
+        "it",
+        "had",
+        "stalled",
+        "the",
+        "slow",
+        "buyer",
+        "pool"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the seller",
+        "the price",
+        "the pool"
+      ],
+      "answer": "the price",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "price",
+          "index": 4,
+          "weight": 0.6,
+          "note": "The price stalled buyers."
+        },
+        {
+          "token": "pool",
+          "index": 12,
+          "weight": 0.22,
+          "note": "The buyer pool is the audience."
+        },
+        {
+          "token": "seller",
+          "index": 1,
+          "weight": 0.18,
+          "note": "The seller cut things."
+        }
+      ],
+      "clue": "had stalled the slow buyer pool",
+      "insight": "The stalling lever is the price."
+    },
+    {
+      "title": "Frail Build",
+      "level": "advanced",
+      "difficulty": 1,
+      "sentence": "The lead dropped the build because it had failed a smoke test.",
+      "tokens": [
+        "The",
+        "lead",
+        "dropped",
+        "the",
+        "build",
+        "because",
+        "it",
+        "had",
+        "failed",
+        "a",
+        "smoke",
+        "test"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the lead",
+        "the build",
+        "the test"
+      ],
+      "answer": "the build",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "build",
+          "index": 4,
+          "weight": 0.6,
+          "note": "The build failed the test."
+        },
+        {
+          "token": "test",
+          "index": 11,
+          "weight": 0.22,
+          "note": "The test is the gate."
+        },
+        {
+          "token": "lead",
+          "index": 1,
+          "weight": 0.18,
+          "note": "The lead did the drop."
+        }
+      ],
+      "clue": "had failed a smoke test",
+      "insight": "The failing artifact is the build."
+    },
+    {
+      "title": "Loose Draft",
+      "level": "advanced",
+      "difficulty": 1,
+      "sentence": "The writer tightened the draft after it had drifted from the core idea.",
+      "tokens": [
+        "The",
+        "writer",
+        "tightened",
+        "the",
+        "draft",
+        "after",
+        "it",
+        "had",
+        "drifted",
+        "from",
+        "the",
+        "core",
+        "idea"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the writer",
+        "the draft",
+        "the idea"
+      ],
+      "answer": "the draft",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "draft",
+          "index": 4,
+          "weight": 0.6,
+          "note": "The draft drifted."
+        },
+        {
+          "token": "idea",
+          "index": 12,
+          "weight": 0.22,
+          "note": "The idea is the anchor."
+        },
+        {
+          "token": "writer",
+          "index": 1,
+          "weight": 0.18,
+          "note": "The writer did the edit."
+        }
+      ],
+      "clue": "had drifted from the core idea",
+      "insight": "The drifting text is the draft."
+    },
+    {
+      "title": "Tight Budget",
+      "level": "advanced",
+      "difficulty": 1,
+      "sentence": "The board cut the budget since it had grown well past the cap.",
+      "tokens": [
+        "The",
+        "board",
+        "cut",
+        "the",
+        "budget",
+        "since",
+        "it",
+        "had",
+        "grown",
+        "well",
+        "past",
+        "the",
+        "cap"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the board",
+        "the budget",
+        "the cap"
+      ],
+      "answer": "the budget",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "budget",
+          "index": 4,
+          "weight": 0.6,
+          "note": "The budget grew past the cap."
+        },
+        {
+          "token": "cap",
+          "index": 12,
+          "weight": 0.22,
+          "note": "The cap is the limit."
+        },
+        {
+          "token": "board",
+          "index": 1,
+          "weight": 0.18,
+          "note": "The board did the cut."
+        }
+      ],
+      "clue": "had grown well past the cap",
+      "insight": "The bloated number is the budget."
+    },
+    {
+      "title": "Stale Model",
+      "level": "advanced",
+      "difficulty": 1,
+      "sentence": "The data team retired the model because it had drifted in recent weeks.",
+      "tokens": [
+        "The",
+        "data",
+        "team",
+        "retired",
+        "the",
+        "model",
+        "because",
+        "it",
+        "had",
+        "drifted",
+        "in",
+        "recent",
+        "weeks"
+      ],
+      "target": {
+        "text": "it",
+        "index": 7
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the data team",
+        "the model",
+        "the weeks"
+      ],
+      "answer": "the model",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "model",
+          "index": 5,
+          "weight": 0.6,
+          "note": "The model drifted."
+        },
+        {
+          "token": "weeks",
+          "index": 12,
+          "weight": 0.22,
+          "note": "Weeks are the timing."
+        },
+        {
+          "token": "team",
+          "index": 2,
+          "weight": 0.18,
+          "note": "The team did the retire."
+        }
+      ],
+      "clue": "had drifted in recent weeks",
+      "insight": "The drifting artifact is the model."
+    },
+    {
+      "title": "Weak Pitch",
+      "level": "advanced",
+      "difficulty": 2,
+      "sentence": "The founder reworked the pitch after backers said that it had felt vague.",
+      "tokens": [
+        "The",
+        "founder",
+        "reworked",
+        "the",
+        "pitch",
+        "after",
+        "backers",
+        "said",
+        "that",
+        "it",
+        "had",
+        "felt",
+        "vague"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the founder",
+        "the pitch",
+        "the backers"
+      ],
+      "answer": "the pitch",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "pitch",
+          "index": 4,
+          "weight": 0.58,
+          "note": "The pitch felt vague."
+        },
+        {
+          "token": "backers",
+          "index": 6,
+          "weight": 0.24,
+          "note": "Backers gave the feedback."
+        },
+        {
+          "token": "founder",
+          "index": 1,
+          "weight": 0.18,
+          "note": "The founder reworks it."
+        }
+      ],
+      "clue": "had felt vague",
+      "insight": "The vague item under review is the pitch."
+    },
+    {
+      "title": "Off Forecast",
+      "level": "advanced",
+      "difficulty": 2,
+      "sentence": "The analyst redid the forecast once auditors saw that it had used stale data.",
+      "tokens": [
+        "The",
+        "analyst",
+        "redid",
+        "the",
+        "forecast",
+        "once",
+        "auditors",
+        "saw",
+        "that",
+        "it",
+        "had",
+        "used",
+        "stale",
+        "data"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the analyst",
+        "the forecast",
+        "the data"
+      ],
+      "answer": "the forecast",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "forecast",
+          "index": 4,
+          "weight": 0.58,
+          "note": "The forecast used stale data."
+        },
+        {
+          "token": "data",
+          "index": 13,
+          "weight": 0.24,
+          "note": "Data is the input."
+        },
+        {
+          "token": "auditors",
+          "index": 6,
+          "weight": 0.18,
+          "note": "Auditors caught it."
+        }
+      ],
+      "clue": "had used stale data",
+      "insight": "The flawed output is the forecast."
+    },
+    {
+      "title": "Bare Spec",
+      "level": "advanced",
+      "difficulty": 2,
+      "sentence": "The PM rewrote the spec once reviewers felt that it had skipped key cases.",
+      "tokens": [
+        "The",
+        "PM",
+        "rewrote",
+        "the",
+        "spec",
+        "once",
+        "reviewers",
+        "felt",
+        "that",
+        "it",
+        "had",
+        "skipped",
+        "key",
+        "cases"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the PM",
+        "the spec",
+        "the cases"
+      ],
+      "answer": "the spec",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "spec",
+          "index": 4,
+          "weight": 0.58,
+          "note": "The spec skipped cases."
+        },
+        {
+          "token": "cases",
+          "index": 13,
+          "weight": 0.24,
+          "note": "Cases are what it omitted."
+        },
+        {
+          "token": "PM",
+          "index": 1,
+          "weight": 0.18,
+          "note": "The PM did the edit."
+        }
+      ],
+      "clue": "had skipped key cases",
+      "insight": "The lacking document is the spec."
+    },
+    {
+      "title": "Slow Probe",
+      "level": "advanced",
+      "difficulty": 2,
+      "sentence": "The lab paused the probe since it had stalled at the second stage.",
+      "tokens": [
+        "The",
+        "lab",
+        "paused",
+        "the",
+        "probe",
+        "since",
+        "it",
+        "had",
+        "stalled",
+        "at",
+        "the",
+        "second",
+        "stage"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the lab",
+        "the probe",
+        "the stage"
+      ],
+      "answer": "the probe",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "probe",
+          "index": 4,
+          "weight": 0.58,
+          "note": "The probe stalled."
+        },
+        {
+          "token": "stage",
+          "index": 12,
+          "weight": 0.24,
+          "note": "Stage is where it stalled."
+        },
+        {
+          "token": "lab",
+          "index": 1,
+          "weight": 0.18,
+          "note": "The lab paused things."
+        }
+      ],
+      "clue": "had stalled at the second stage",
+      "insight": "The stalled effort is the probe."
+    },
+    {
+      "title": "Bent Beam",
+      "level": "advanced",
+      "difficulty": 2,
+      "sentence": "The crew swapped the beam because it had warped under load over time.",
+      "tokens": [
+        "The",
+        "crew",
+        "swapped",
+        "the",
+        "beam",
+        "because",
+        "it",
+        "had",
+        "warped",
+        "under",
+        "load",
+        "over",
+        "time"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the crew",
+        "the beam",
+        "the load"
+      ],
+      "answer": "the beam",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "beam",
+          "index": 4,
+          "weight": 0.58,
+          "note": "The beam warped."
+        },
+        {
+          "token": "load",
+          "index": 10,
+          "weight": 0.24,
+          "note": "Load is the cause."
+        },
+        {
+          "token": "crew",
+          "index": 1,
+          "weight": 0.18,
+          "note": "The crew did the swap."
+        }
+      ],
+      "clue": "had warped under load over time",
+      "insight": "The warped part is the beam."
+    },
+    {
+      "title": "Lost Lead",
+      "level": "advanced",
+      "difficulty": 2,
+      "sentence": "The runner gave up the lead once it had slipped late in the race.",
+      "tokens": [
+        "The",
+        "runner",
+        "gave",
+        "up",
+        "the",
+        "lead",
+        "once",
+        "it",
+        "had",
+        "slipped",
+        "late",
+        "in",
+        "the",
+        "race"
+      ],
+      "target": {
+        "text": "it",
+        "index": 7
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the runner",
+        "the lead",
+        "the race"
+      ],
+      "answer": "the lead",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "lead",
+          "index": 5,
+          "weight": 0.58,
+          "note": "The lead slipped."
+        },
+        {
+          "token": "race",
+          "index": 13,
+          "weight": 0.24,
+          "note": "Race is the context."
+        },
+        {
+          "token": "runner",
+          "index": 1,
+          "weight": 0.18,
+          "note": "The runner gave it up."
+        }
+      ],
+      "clue": "had slipped late in the race",
+      "insight": "The slipping margin is the lead."
+    },
+    {
+      "title": "Vague Memo",
+      "level": "advanced",
+      "difficulty": 2,
+      "sentence": "The chief revised the memo because it had glossed a clear risk point.",
+      "tokens": [
+        "The",
+        "chief",
+        "revised",
+        "the",
+        "memo",
+        "because",
+        "it",
+        "had",
+        "glossed",
+        "a",
+        "clear",
+        "risk",
+        "point"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the chief",
+        "the memo",
+        "the risk"
+      ],
+      "answer": "the memo",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "memo",
+          "index": 4,
+          "weight": 0.58,
+          "note": "The memo glossed the risk."
+        },
+        {
+          "token": "risk",
+          "index": 11,
+          "weight": 0.24,
+          "note": "Risk is what got glossed."
+        },
+        {
+          "token": "chief",
+          "index": 1,
+          "weight": 0.18,
+          "note": "The chief did the edit."
+        }
+      ],
+      "clue": "had glossed a clear risk point",
+      "insight": "The unclear text is the memo."
+    },
+    {
+      "title": "Late Lab",
+      "level": "advanced",
+      "difficulty": 2,
+      "sentence": "The class redid the lab since it had failed to gather clean data.",
+      "tokens": [
+        "The",
+        "class",
+        "redid",
+        "the",
+        "lab",
+        "since",
+        "it",
+        "had",
+        "failed",
+        "to",
+        "gather",
+        "clean",
+        "data"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the class",
+        "the lab",
+        "the data"
+      ],
+      "answer": "the lab",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "lab",
+          "index": 4,
+          "weight": 0.58,
+          "note": "The lab failed to gather data."
+        },
+        {
+          "token": "data",
+          "index": 12,
+          "weight": 0.24,
+          "note": "Data is the goal."
+        },
+        {
+          "token": "class",
+          "index": 1,
+          "weight": 0.18,
+          "note": "The class redid it."
+        }
+      ],
+      "clue": "had failed to gather clean data",
+      "insight": "The failed effort is the lab."
+    },
+    {
+      "title": "Dim Sales",
+      "level": "advanced",
+      "difficulty": 2,
+      "sentence": "The chain shut the kiosk once sales said that it had bled cash for months.",
+      "tokens": [
+        "The",
+        "chain",
+        "shut",
+        "the",
+        "kiosk",
+        "once",
+        "sales",
+        "said",
+        "that",
+        "it",
+        "had",
+        "bled",
+        "cash",
+        "for",
+        "months"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the chain",
+        "the kiosk",
+        "the months"
+      ],
+      "answer": "the kiosk",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "kiosk",
+          "index": 4,
+          "weight": 0.58,
+          "note": "The kiosk bled cash."
+        },
+        {
+          "token": "months",
+          "index": 14,
+          "weight": 0.24,
+          "note": "Months are the time frame."
+        },
+        {
+          "token": "chain",
+          "index": 1,
+          "weight": 0.18,
+          "note": "The chain made the call."
+        }
+      ],
+      "clue": "had bled cash for months",
+      "insight": "The losing site is the kiosk."
+    },
+    {
+      "title": "Wrong Lane",
+      "level": "advanced",
+      "difficulty": 2,
+      "sentence": "The driver merged across the lane once it had cleared of slow trucks.",
+      "tokens": [
+        "The",
+        "driver",
+        "merged",
+        "across",
+        "the",
+        "lane",
+        "once",
+        "it",
+        "had",
+        "cleared",
+        "of",
+        "slow",
+        "trucks"
+      ],
+      "target": {
+        "text": "it",
+        "index": 7
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the driver",
+        "the lane",
+        "the trucks"
+      ],
+      "answer": "the lane",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "lane",
+          "index": 5,
+          "weight": 0.58,
+          "note": "The lane cleared."
+        },
+        {
+          "token": "trucks",
+          "index": 12,
+          "weight": 0.24,
+          "note": "Trucks are what blocked it."
+        },
+        {
+          "token": "driver",
+          "index": 1,
+          "weight": 0.18,
+          "note": "The driver did the merge."
+        }
+      ],
+      "clue": "had cleared of slow trucks",
+      "insight": "The clearing strip is the lane."
+    },
+    {
+      "title": "Frail Demo",
+      "level": "advanced",
+      "difficulty": 3,
+      "sentence": "The judges paused the demo because it had crashed twice during the live run.",
+      "tokens": [
+        "The",
+        "judges",
+        "paused",
+        "the",
+        "demo",
+        "because",
+        "it",
+        "had",
+        "crashed",
+        "twice",
+        "during",
+        "the",
+        "live",
+        "run"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the judges",
+        "the demo",
+        "the run"
+      ],
+      "answer": "the demo",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "demo",
+          "index": 4,
+          "weight": 0.56,
+          "note": "The demo crashed twice."
+        },
+        {
+          "token": "run",
+          "index": 13,
+          "weight": 0.24,
+          "note": "The run is the trial."
+        },
+        {
+          "token": "judges",
+          "index": 1,
+          "weight": 0.2,
+          "note": "Judges paused things."
+        }
+      ],
+      "clue": "had crashed twice during the live run",
+      "insight": "The crashing item is the demo."
+    },
+    {
+      "title": "Soft Lock",
+      "level": "advanced",
+      "difficulty": 3,
+      "sentence": "The bank reset the token once support saw that it had locked the user out.",
+      "tokens": [
+        "The",
+        "bank",
+        "reset",
+        "the",
+        "token",
+        "once",
+        "support",
+        "saw",
+        "that",
+        "it",
+        "had",
+        "locked",
+        "the",
+        "user",
+        "out"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the bank",
+        "the token",
+        "the user"
+      ],
+      "answer": "the token",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "token",
+          "index": 4,
+          "weight": 0.56,
+          "note": "The token did the locking."
+        },
+        {
+          "token": "user",
+          "index": 13,
+          "weight": 0.24,
+          "note": "The user is who got locked."
+        },
+        {
+          "token": "support",
+          "index": 6,
+          "weight": 0.2,
+          "note": "Support saw the issue."
+        }
+      ],
+      "clue": "had locked the user out",
+      "insight": "The locking item is the token."
+    },
+    {
+      "title": "Mute Mic",
+      "level": "advanced",
+      "difficulty": 3,
+      "sentence": "The host swapped the mic when guests said that it had muffled their words.",
+      "tokens": [
+        "The",
+        "host",
+        "swapped",
+        "the",
+        "mic",
+        "when",
+        "guests",
+        "said",
+        "that",
+        "it",
+        "had",
+        "muffled",
+        "their",
+        "words"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the host",
+        "the mic",
+        "the guests"
+      ],
+      "answer": "the mic",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "mic",
+          "index": 4,
+          "weight": 0.56,
+          "note": "The mic muffled words."
+        },
+        {
+          "token": "guests",
+          "index": 6,
+          "weight": 0.24,
+          "note": "Guests gave feedback."
+        },
+        {
+          "token": "host",
+          "index": 1,
+          "weight": 0.2,
+          "note": "The host did the swap."
+        }
+      ],
+      "clue": "had muffled their words",
+      "insight": "The muffling device is the mic."
+    },
+    {
+      "title": "Old Cache",
+      "level": "advanced",
+      "difficulty": 3,
+      "sentence": "The team purged the cache after users showed that it had served stale pages.",
+      "tokens": [
+        "The",
+        "team",
+        "purged",
+        "the",
+        "cache",
+        "after",
+        "users",
+        "showed",
+        "that",
+        "it",
+        "had",
+        "served",
+        "stale",
+        "pages"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the team",
+        "the cache",
+        "the pages"
+      ],
+      "answer": "the cache",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "cache",
+          "index": 4,
+          "weight": 0.56,
+          "note": "The cache served stale pages."
+        },
+        {
+          "token": "pages",
+          "index": 13,
+          "weight": 0.24,
+          "note": "Pages are what was served."
+        },
+        {
+          "token": "team",
+          "index": 1,
+          "weight": 0.2,
+          "note": "The team did the purge."
+        }
+      ],
+      "clue": "had served stale pages",
+      "insight": "The serving layer is the cache."
+    },
+    {
+      "title": "Lost Drone",
+      "level": "advanced",
+      "difficulty": 3,
+      "sentence": "The pilot grounded the drone since it had lost its link near the ridge.",
+      "tokens": [
+        "The",
+        "pilot",
+        "grounded",
+        "the",
+        "drone",
+        "since",
+        "it",
+        "had",
+        "lost",
+        "its",
+        "link",
+        "near",
+        "the",
+        "ridge"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the pilot",
+        "the drone",
+        "the ridge"
+      ],
+      "answer": "the drone",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "drone",
+          "index": 4,
+          "weight": 0.56,
+          "note": "The drone lost its link."
+        },
+        {
+          "token": "ridge",
+          "index": 13,
+          "weight": 0.24,
+          "note": "Ridge is the place."
+        },
+        {
+          "token": "pilot",
+          "index": 1,
+          "weight": 0.2,
+          "note": "The pilot grounded it."
+        }
+      ],
+      "clue": "had lost its link near the ridge",
+      "insight": "The losing aircraft is the drone."
+    },
+    {
+      "title": "Off Beat",
+      "level": "advanced",
+      "difficulty": 3,
+      "sentence": "The leader stopped the band once players felt that it had drifted off beat.",
+      "tokens": [
+        "The",
+        "leader",
+        "stopped",
+        "the",
+        "band",
+        "once",
+        "players",
+        "felt",
+        "that",
+        "it",
+        "had",
+        "drifted",
+        "off",
+        "beat"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the leader",
+        "the band",
+        "the beat"
+      ],
+      "answer": "the band",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "band",
+          "index": 4,
+          "weight": 0.56,
+          "note": "The band drifted off beat."
+        },
+        {
+          "token": "beat",
+          "index": 13,
+          "weight": 0.24,
+          "note": "Beat is the standard."
+        },
+        {
+          "token": "players",
+          "index": 6,
+          "weight": 0.2,
+          "note": "Players gave feedback."
+        }
+      ],
+      "clue": "had drifted off beat",
+      "insight": "The drifting group is the band."
+    },
+    {
+      "title": "Bare Trial",
+      "level": "advanced",
+      "difficulty": 3,
+      "sentence": "The chief ended the trial because it had failed to recruit enough subjects.",
+      "tokens": [
+        "The",
+        "chief",
+        "ended",
+        "the",
+        "trial",
+        "because",
+        "it",
+        "had",
+        "failed",
+        "to",
+        "recruit",
+        "enough",
+        "subjects"
+      ],
+      "target": {
+        "text": "it",
+        "index": 6
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the chief",
+        "the trial",
+        "the subjects"
+      ],
+      "answer": "the trial",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "trial",
+          "index": 4,
+          "weight": 0.56,
+          "note": "The trial failed to recruit."
+        },
+        {
+          "token": "subjects",
+          "index": 12,
+          "weight": 0.24,
+          "note": "Subjects are the goal."
+        },
+        {
+          "token": "chief",
+          "index": 1,
+          "weight": 0.2,
+          "note": "The chief ended things."
+        }
+      ],
+      "clue": "had failed to recruit enough subjects",
+      "insight": "The failing study is the trial."
+    },
+    {
+      "title": "Late Train",
+      "level": "advanced",
+      "difficulty": 3,
+      "sentence": "The crew skipped the route once dispatch said that it had jammed every line.",
+      "tokens": [
+        "The",
+        "crew",
+        "skipped",
+        "the",
+        "route",
+        "once",
+        "dispatch",
+        "said",
+        "that",
+        "it",
+        "had",
+        "jammed",
+        "every",
+        "line"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the crew",
+        "the route",
+        "dispatch"
+      ],
+      "answer": "the route",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "route",
+          "index": 4,
+          "weight": 0.56,
+          "note": "The route jammed lines."
+        },
+        {
+          "token": "dispatch",
+          "index": 6,
+          "weight": 0.24,
+          "note": "Dispatch gave the call."
+        },
+        {
+          "token": "crew",
+          "index": 1,
+          "weight": 0.2,
+          "note": "The crew acted on it."
+        }
+      ],
+      "clue": "had jammed every line",
+      "insight": "The jamming path is the route."
+    },
+    {
+      "title": "Soft Plan",
+      "level": "advanced",
+      "difficulty": 3,
+      "sentence": "The chief flagged the plan once peers found that it had glossed real risks.",
+      "tokens": [
+        "The",
+        "chief",
+        "flagged",
+        "the",
+        "plan",
+        "once",
+        "peers",
+        "found",
+        "that",
+        "it",
+        "had",
+        "glossed",
+        "real",
+        "risks"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the chief",
+        "the plan",
+        "the peers"
+      ],
+      "answer": "the plan",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "plan",
+          "index": 4,
+          "weight": 0.56,
+          "note": "The plan glossed risks."
+        },
+        {
+          "token": "peers",
+          "index": 6,
+          "weight": 0.24,
+          "note": "Peers gave the read."
+        },
+        {
+          "token": "risks",
+          "index": 13,
+          "weight": 0.2,
+          "note": "Risks are what got glossed."
+        }
+      ],
+      "clue": "had glossed real risks",
+      "insight": "The risky paper is the plan."
+    },
+    {
+      "title": "Stale Theme",
+      "level": "advanced",
+      "difficulty": 3,
+      "sentence": "The studio retired the theme since fans felt that it had grown old fast.",
+      "tokens": [
+        "The",
+        "studio",
+        "retired",
+        "the",
+        "theme",
+        "since",
+        "fans",
+        "felt",
+        "that",
+        "it",
+        "had",
+        "grown",
+        "old",
+        "fast"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the studio",
+        "the theme",
+        "the fans"
+      ],
+      "answer": "the theme",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "theme",
+          "index": 4,
+          "weight": 0.56,
+          "note": "The theme grew old."
+        },
+        {
+          "token": "fans",
+          "index": 6,
+          "weight": 0.24,
+          "note": "Fans gave feedback."
+        },
+        {
+          "token": "studio",
+          "index": 1,
+          "weight": 0.2,
+          "note": "The studio retired it."
+        }
+      ],
+      "clue": "had grown old fast",
+      "insight": "The aging asset is the theme."
+    },
+    {
+      "title": "Soft Demand",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence": "The seller cut the price even after he saw that it had stalled buyers earlier.",
+      "tokens": [
+        "The",
+        "seller",
+        "cut",
+        "the",
+        "price",
+        "even",
+        "after",
+        "he",
+        "saw",
+        "that",
+        "it",
+        "had",
+        "stalled",
+        "buyers",
+        "earlier"
+      ],
+      "target": {
+        "text": "it",
+        "index": 10
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the seller",
+        "the price",
+        "the buyers"
+      ],
+      "answer": "the price",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "price",
+          "index": 4,
+          "weight": 0.54,
+          "note": "The price stalled buyers."
+        },
+        {
+          "token": "buyers",
+          "index": 13,
+          "weight": 0.26,
+          "note": "Buyers were the audience."
+        },
+        {
+          "token": "seller",
+          "index": 1,
+          "weight": 0.2,
+          "note": "The seller cut things."
+        }
+      ],
+      "clue": "had stalled buyers earlier",
+      "insight": "The stalling lever is the price."
+    },
+    {
+      "title": "Bent Curve",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence": "The team redrew the curve once peers noted that it had ignored a key trend.",
+      "tokens": [
+        "The",
+        "team",
+        "redrew",
+        "the",
+        "curve",
+        "once",
+        "peers",
+        "noted",
+        "that",
+        "it",
+        "had",
+        "ignored",
+        "a",
+        "key",
+        "trend"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the team",
+        "the curve",
+        "the trend"
+      ],
+      "answer": "the curve",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "curve",
+          "index": 4,
+          "weight": 0.54,
+          "note": "The curve ignored the trend."
+        },
+        {
+          "token": "trend",
+          "index": 14,
+          "weight": 0.26,
+          "note": "Trend is what was missed."
+        },
+        {
+          "token": "peers",
+          "index": 6,
+          "weight": 0.2,
+          "note": "Peers gave the note."
+        }
+      ],
+      "clue": "had ignored a key trend",
+      "insight": "The flawed plot is the curve."
+    },
+    {
+      "title": "Lost Frame",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence": "The artist redid the shot since the crew showed that it had blurred at the edge.",
+      "tokens": [
+        "The",
+        "artist",
+        "redid",
+        "the",
+        "shot",
+        "since",
+        "the",
+        "crew",
+        "showed",
+        "that",
+        "it",
+        "had",
+        "blurred",
+        "at",
+        "the",
+        "edge"
+      ],
+      "target": {
+        "text": "it",
+        "index": 10
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the artist",
+        "the shot",
+        "the crew"
+      ],
+      "answer": "the shot",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "shot",
+          "index": 4,
+          "weight": 0.54,
+          "note": "The shot blurred."
+        },
+        {
+          "token": "edge",
+          "index": 15,
+          "weight": 0.26,
+          "note": "Edge is where it blurred."
+        },
+        {
+          "token": "crew",
+          "index": 7,
+          "weight": 0.2,
+          "note": "Crew gave the read."
+        }
+      ],
+      "clue": "had blurred at the edge",
+      "insight": "The blurry image is the shot."
+    },
+    {
+      "title": "Loose Beam",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence": "The builder swapped the brace once a check showed that it had bent under stress.",
+      "tokens": [
+        "The",
+        "builder",
+        "swapped",
+        "the",
+        "brace",
+        "once",
+        "a",
+        "check",
+        "showed",
+        "that",
+        "it",
+        "had",
+        "bent",
+        "under",
+        "stress"
+      ],
+      "target": {
+        "text": "it",
+        "index": 10
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the builder",
+        "the brace",
+        "the check"
+      ],
+      "answer": "the brace",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "brace",
+          "index": 4,
+          "weight": 0.54,
+          "note": "The brace bent under stress."
+        },
+        {
+          "token": "stress",
+          "index": 14,
+          "weight": 0.26,
+          "note": "Stress is the cause."
+        },
+        {
+          "token": "check",
+          "index": 7,
+          "weight": 0.2,
+          "note": "The check found it."
+        }
+      ],
+      "clue": "had bent under stress",
+      "insight": "The bent part is the brace."
+    },
+    {
+      "title": "Slow Court",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence": "The judge paused the case after counsel saw that it had grown thin on facts.",
+      "tokens": [
+        "The",
+        "judge",
+        "paused",
+        "the",
+        "case",
+        "after",
+        "counsel",
+        "saw",
+        "that",
+        "it",
+        "had",
+        "grown",
+        "thin",
+        "on",
+        "facts"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the judge",
+        "the case",
+        "counsel"
+      ],
+      "answer": "the case",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "case",
+          "index": 4,
+          "weight": 0.54,
+          "note": "The case grew thin."
+        },
+        {
+          "token": "facts",
+          "index": 14,
+          "weight": 0.26,
+          "note": "Facts are the support."
+        },
+        {
+          "token": "counsel",
+          "index": 6,
+          "weight": 0.2,
+          "note": "Counsel saw it."
+        }
+      ],
+      "clue": "had grown thin on facts",
+      "insight": "The weak matter is the case."
+    },
+    {
+      "title": "Mute Bell",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence": "The shop swapped the bell once a tech said that it had stopped on cold days.",
+      "tokens": [
+        "The",
+        "shop",
+        "swapped",
+        "the",
+        "bell",
+        "once",
+        "a",
+        "tech",
+        "said",
+        "that",
+        "it",
+        "had",
+        "stopped",
+        "on",
+        "cold",
+        "days"
+      ],
+      "target": {
+        "text": "it",
+        "index": 10
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the shop",
+        "the bell",
+        "the tech"
+      ],
+      "answer": "the bell",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "bell",
+          "index": 4,
+          "weight": 0.54,
+          "note": "The bell stopped."
+        },
+        {
+          "token": "days",
+          "index": 15,
+          "weight": 0.26,
+          "note": "Days are the trigger time."
+        },
+        {
+          "token": "tech",
+          "index": 7,
+          "weight": 0.2,
+          "note": "The tech reported it."
+        }
+      ],
+      "clue": "had stopped on cold days",
+      "insight": "The failing device is the bell."
+    },
+    {
+      "title": "Off Map",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence": "The guide redid the path once hikers said that it had skirted a steep drop.",
+      "tokens": [
+        "The",
+        "guide",
+        "redid",
+        "the",
+        "path",
+        "once",
+        "hikers",
+        "said",
+        "that",
+        "it",
+        "had",
+        "skirted",
+        "a",
+        "steep",
+        "drop"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the guide",
+        "the path",
+        "hikers"
+      ],
+      "answer": "the path",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "path",
+          "index": 4,
+          "weight": 0.54,
+          "note": "The path skirted the drop."
+        },
+        {
+          "token": "drop",
+          "index": 14,
+          "weight": 0.26,
+          "note": "Drop is the danger."
+        },
+        {
+          "token": "hikers",
+          "index": 6,
+          "weight": 0.2,
+          "note": "Hikers gave the warning."
+        }
+      ],
+      "clue": "had skirted a steep drop",
+      "insight": "The risky route is the path."
+    },
+    {
+      "title": "Faded Brand",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence": "The owner redid the logo once a study showed that it had lost its edge.",
+      "tokens": [
+        "The",
+        "owner",
+        "redid",
+        "the",
+        "logo",
+        "once",
+        "a",
+        "study",
+        "showed",
+        "that",
+        "it",
+        "had",
+        "lost",
+        "its",
+        "edge"
+      ],
+      "target": {
+        "text": "it",
+        "index": 10
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the owner",
+        "the logo",
+        "the study"
+      ],
+      "answer": "the logo",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "logo",
+          "index": 4,
+          "weight": 0.54,
+          "note": "The logo lost its edge."
+        },
+        {
+          "token": "study",
+          "index": 7,
+          "weight": 0.26,
+          "note": "The study found it."
+        },
+        {
+          "token": "owner",
+          "index": 1,
+          "weight": 0.2,
+          "note": "The owner did the redo."
+        }
+      ],
+      "clue": "had lost its edge",
+      "insight": "The dulled mark is the logo."
+    },
+    {
+      "title": "Late Jet",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence": "The crew held the flight after radar saw that it had drifted off course.",
+      "tokens": [
+        "The",
+        "crew",
+        "held",
+        "the",
+        "flight",
+        "after",
+        "radar",
+        "saw",
+        "that",
+        "it",
+        "had",
+        "drifted",
+        "off",
+        "course"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the crew",
+        "the flight",
+        "the radar"
+      ],
+      "answer": "the flight",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "flight",
+          "index": 4,
+          "weight": 0.54,
+          "note": "The flight drifted."
+        },
+        {
+          "token": "course",
+          "index": 13,
+          "weight": 0.26,
+          "note": "Course is the path."
+        },
+        {
+          "token": "radar",
+          "index": 6,
+          "weight": 0.2,
+          "note": "Radar saw the drift."
+        }
+      ],
+      "clue": "had drifted off course",
+      "insight": "The drifting trip is the flight."
+    },
+    {
+      "title": "Soft Pitch",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence": "The board passed on the deal once a partner said that it had felt thin.",
+      "tokens": [
+        "The",
+        "board",
+        "passed",
+        "on",
+        "the",
+        "deal",
+        "once",
+        "a",
+        "partner",
+        "said",
+        "that",
+        "it",
+        "had",
+        "felt",
+        "thin"
+      ],
+      "target": {
+        "text": "it",
+        "index": 11
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the board",
+        "the deal",
+        "the partner"
+      ],
+      "answer": "the deal",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "deal",
+          "index": 5,
+          "weight": 0.54,
+          "note": "The deal felt thin."
+        },
+        {
+          "token": "partner",
+          "index": 8,
+          "weight": 0.26,
+          "note": "The partner gave the call."
+        },
+        {
+          "token": "board",
+          "index": 1,
+          "weight": 0.2,
+          "note": "The board passed."
+        }
+      ],
+      "clue": "had felt thin",
+      "insight": "The thin offer is the deal."
+    },
+    {
+      "title": "Fragile Truce",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence": "The aides briefed the chair on the truce once envoys hinted that it had cracked.",
+      "tokens": [
+        "The",
+        "aides",
+        "briefed",
+        "the",
+        "chair",
+        "on",
+        "the",
+        "truce",
+        "once",
+        "envoys",
+        "hinted",
+        "that",
+        "it",
+        "had",
+        "cracked"
+      ],
+      "target": {
+        "text": "it",
+        "index": 12
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the chair",
+        "the truce",
+        "the envoys"
+      ],
+      "answer": "the truce",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "truce",
+          "index": 7,
+          "weight": 0.52,
+          "note": "The truce cracked."
+        },
+        {
+          "token": "envoys",
+          "index": 9,
+          "weight": 0.28,
+          "note": "Envoys hinted at it."
+        },
+        {
+          "token": "aides",
+          "index": 1,
+          "weight": 0.2,
+          "note": "Aides briefed the chair."
+        }
+      ],
+      "clue": "had cracked",
+      "insight": "The cracking pact is the truce."
+    },
+    {
+      "title": "Stale Trial",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence": "The team retired the trial once a board found that it had drifted from the plan.",
+      "tokens": [
+        "The",
+        "team",
+        "retired",
+        "the",
+        "trial",
+        "once",
+        "a",
+        "board",
+        "found",
+        "that",
+        "it",
+        "had",
+        "drifted",
+        "from",
+        "the",
+        "plan"
+      ],
+      "target": {
+        "text": "it",
+        "index": 10
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the team",
+        "the trial",
+        "the board"
+      ],
+      "answer": "the trial",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "trial",
+          "index": 4,
+          "weight": 0.52,
+          "note": "The trial drifted."
+        },
+        {
+          "token": "board",
+          "index": 7,
+          "weight": 0.28,
+          "note": "Board flagged the drift."
+        },
+        {
+          "token": "plan",
+          "index": 15,
+          "weight": 0.2,
+          "note": "Plan is the anchor."
+        }
+      ],
+      "clue": "had drifted from the plan",
+      "insight": "The drifting study is the trial."
+    },
+    {
+      "title": "Loose Bond",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence": "The bank shed the bond once traders saw that it had slid below par fast.",
+      "tokens": [
+        "The",
+        "bank",
+        "shed",
+        "the",
+        "bond",
+        "once",
+        "traders",
+        "saw",
+        "that",
+        "it",
+        "had",
+        "slid",
+        "below",
+        "par",
+        "fast"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the bank",
+        "the bond",
+        "traders"
+      ],
+      "answer": "the bond",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "bond",
+          "index": 4,
+          "weight": 0.52,
+          "note": "The bond slid below par."
+        },
+        {
+          "token": "traders",
+          "index": 6,
+          "weight": 0.28,
+          "note": "Traders saw the slide."
+        },
+        {
+          "token": "bank",
+          "index": 1,
+          "weight": 0.2,
+          "note": "The bank shed it."
+        }
+      ],
+      "clue": "had slid below par fast",
+      "insight": "The slipping note is the bond."
+    },
+    {
+      "title": "Bare Lead",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence": "The agent dropped the lead since a probe noted that it had no firm proof.",
+      "tokens": [
+        "The",
+        "agent",
+        "dropped",
+        "the",
+        "lead",
+        "since",
+        "a",
+        "probe",
+        "noted",
+        "that",
+        "it",
+        "had",
+        "no",
+        "firm",
+        "proof"
+      ],
+      "target": {
+        "text": "it",
+        "index": 10
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the agent",
+        "the lead",
+        "the probe"
+      ],
+      "answer": "the lead",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "lead",
+          "index": 4,
+          "weight": 0.52,
+          "note": "The lead lacked proof."
+        },
+        {
+          "token": "proof",
+          "index": 14,
+          "weight": 0.28,
+          "note": "Proof is the missing piece."
+        },
+        {
+          "token": "probe",
+          "index": 7,
+          "weight": 0.2,
+          "note": "The probe noted the lack."
+        }
+      ],
+      "clue": "had no firm proof",
+      "insight": "The thin tip is the lead."
+    },
+    {
+      "title": "Flat Drive",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence": "The lab cloned the drive after techs saw that it had begun to skip key blocks.",
+      "tokens": [
+        "The",
+        "lab",
+        "cloned",
+        "the",
+        "drive",
+        "after",
+        "techs",
+        "saw",
+        "that",
+        "it",
+        "had",
+        "begun",
+        "to",
+        "skip",
+        "key",
+        "blocks"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the lab",
+        "the drive",
+        "the techs"
+      ],
+      "answer": "the drive",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "drive",
+          "index": 4,
+          "weight": 0.52,
+          "note": "The drive skipped blocks."
+        },
+        {
+          "token": "blocks",
+          "index": 15,
+          "weight": 0.28,
+          "note": "Blocks are the data units."
+        },
+        {
+          "token": "techs",
+          "index": 6,
+          "weight": 0.2,
+          "note": "Techs saw the skip."
+        }
+      ],
+      "clue": "had begun to skip key blocks",
+      "insight": "The failing disk is the drive."
+    },
+    {
+      "title": "Worn Patch",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence": "The team yanked the patch once logs showed that it had broken a quiet path.",
+      "tokens": [
+        "The",
+        "team",
+        "yanked",
+        "the",
+        "patch",
+        "once",
+        "logs",
+        "showed",
+        "that",
+        "it",
+        "had",
+        "broken",
+        "a",
+        "quiet",
+        "path"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the team",
+        "the patch",
+        "the logs"
+      ],
+      "answer": "the patch",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "patch",
+          "index": 4,
+          "weight": 0.52,
+          "note": "The patch broke a path."
+        },
+        {
+          "token": "path",
+          "index": 14,
+          "weight": 0.28,
+          "note": "Path is what got broken."
+        },
+        {
+          "token": "logs",
+          "index": 6,
+          "weight": 0.2,
+          "note": "Logs showed the break."
+        }
+      ],
+      "clue": "had broken a quiet path",
+      "insight": "The breaking change is the patch."
+    },
+    {
+      "title": "Soft Score",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence": "The judge tossed the score once a check found that it had failed a clear rule.",
+      "tokens": [
+        "The",
+        "judge",
+        "tossed",
+        "the",
+        "score",
+        "once",
+        "a",
+        "check",
+        "found",
+        "that",
+        "it",
+        "had",
+        "failed",
+        "a",
+        "clear",
+        "rule"
+      ],
+      "target": {
+        "text": "it",
+        "index": 10
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the judge",
+        "the score",
+        "the check"
+      ],
+      "answer": "the score",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "score",
+          "index": 4,
+          "weight": 0.52,
+          "note": "The score failed a rule."
+        },
+        {
+          "token": "rule",
+          "index": 15,
+          "weight": 0.28,
+          "note": "Rule is the standard."
+        },
+        {
+          "token": "check",
+          "index": 7,
+          "weight": 0.2,
+          "note": "The check caught it."
+        }
+      ],
+      "clue": "had failed a clear rule",
+      "insight": "The failing mark is the score."
+    },
+    {
+      "title": "Mute Pact",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence": "The chief shelved the pact once aides hinted that it had hit a quiet snag.",
+      "tokens": [
+        "The",
+        "chief",
+        "shelved",
+        "the",
+        "pact",
+        "once",
+        "aides",
+        "hinted",
+        "that",
+        "it",
+        "had",
+        "hit",
+        "a",
+        "quiet",
+        "snag"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the chief",
+        "the pact",
+        "the aides"
+      ],
+      "answer": "the pact",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "pact",
+          "index": 4,
+          "weight": 0.52,
+          "note": "The pact hit a snag."
+        },
+        {
+          "token": "snag",
+          "index": 14,
+          "weight": 0.28,
+          "note": "Snag is the issue."
+        },
+        {
+          "token": "aides",
+          "index": 6,
+          "weight": 0.2,
+          "note": "Aides hinted at it."
+        }
+      ],
+      "clue": "had hit a quiet snag",
+      "insight": "The stalled deal is the pact."
+    },
+    {
+      "title": "Bent Beam",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence": "The crew braced the beam once a check found that it had slipped past spec.",
+      "tokens": [
+        "The",
+        "crew",
+        "braced",
+        "the",
+        "beam",
+        "once",
+        "a",
+        "check",
+        "found",
+        "that",
+        "it",
+        "had",
+        "slipped",
+        "past",
+        "spec"
+      ],
+      "target": {
+        "text": "it",
+        "index": 10
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the crew",
+        "the beam",
+        "the check"
+      ],
+      "answer": "the beam",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "beam",
+          "index": 4,
+          "weight": 0.52,
+          "note": "The beam slipped past spec."
+        },
+        {
+          "token": "spec",
+          "index": 14,
+          "weight": 0.28,
+          "note": "Spec is the limit."
+        },
+        {
+          "token": "check",
+          "index": 7,
+          "weight": 0.2,
+          "note": "The check found it."
+        }
+      ],
+      "clue": "had slipped past spec",
+      "insight": "The off-spec part is the beam."
+    },
+    {
+      "title": "Frail Lead",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence": "The board froze the lead once vetters saw that it had no firm trace at all.",
+      "tokens": [
+        "The",
+        "board",
+        "froze",
+        "the",
+        "lead",
+        "once",
+        "vetters",
+        "saw",
+        "that",
+        "it",
+        "had",
+        "no",
+        "firm",
+        "trace",
+        "at",
+        "all"
+      ],
+      "target": {
+        "text": "it",
+        "index": 9
+      },
+      "question": "What does \"it\" refer to?",
+      "options": [
+        "the board",
+        "the lead",
+        "vetters"
+      ],
+      "answer": "the lead",
+      "answerIndex": 1,
+      "candidates": [
+        {
+          "token": "lead",
+          "index": 4,
+          "weight": 0.52,
+          "note": "The lead had no trace."
+        },
+        {
+          "token": "trace",
+          "index": 13,
+          "weight": 0.28,
+          "note": "Trace is the missing piece."
+        },
+        {
+          "token": "vetters",
+          "index": 6,
+          "weight": 0.2,
+          "note": "Vetters saw the gap."
+        }
+      ],
+      "clue": "had no firm trace at all",
+      "insight": "The traceless tip is the lead."
+    }
+  ]
+}

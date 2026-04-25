@@ -1,0 +1,38 @@
+# Dependencies
+node_modules
+
+# Next.js / build output
+.next
+out
+dist
+*.tsbuildinfo
+
+# Env files (never commit secrets)
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage
+
+# IDE / editor
+.vscode
+.idea
+*.swp
+.DS_Store
+Thumbs.db
+
+# Windows accidental nul redirection
+nul
+
+# Misc local
+.cache
