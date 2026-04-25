@@ -33,6 +33,16 @@ function Write-Step($msg) {
     Write-Host "==> $msg" -ForegroundColor Cyan
 }
 
+function Invoke-Checked {
+    param([string]$Label, [scriptblock]$Block)
+    & $Block
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host ""
+        Write-Host "ERROR: '$Label' failed with exit code $LASTEXITCODE." -ForegroundColor Red
+        exit $LASTEXITCODE
+    }
+}
+
 # 1. Set project
 Write-Step "Setting active gcloud project to '$ProjectId'"
 gcloud config set project $ProjectId | Out-Null
@@ -60,7 +70,7 @@ if (-not $repoExists) {
 # 4. Build & push image via Cloud Build
 $imageUri = "$Region-docker.pkg.dev/$ProjectId/$RepoName/${ServiceName}:latest"
 Write-Step "Building and pushing image: $imageUri"
-gcloud builds submit --tag $imageUri
+Invoke-Checked "gcloud builds submit" { gcloud builds submit --tag $imageUri }
 
 # 5. Build env-var argument from .env (skip blanks/comments)
 $envArg = @()
@@ -103,7 +113,7 @@ $deployArgs = @(
     "--max-instances", "5"
 ) + $envArg
 
-& gcloud @deployArgs
+Invoke-Checked "gcloud run deploy" { & gcloud @deployArgs }
 
 # 7. Print URL
 Write-Step "Deployment complete"

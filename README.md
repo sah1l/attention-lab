@@ -2,6 +2,8 @@
 
 **Adaptive tutor that teaches transformer attention through interactive Read → Inspect → Lock → Reveal rounds. Built for the Google Cloud Agentic Premiere League (APL) — Learnings Challenge 2.**
 
+🚀 **Live demo:** https://attention-lab-unzmeauoia-uc.a.run.app/
+
 > **Learnings Challenge — Challenge 2**
 > *Create an intelligent assistant that helps users learn new concepts effectively. The system should personalize content and adapt to user pace and understanding.*
 
